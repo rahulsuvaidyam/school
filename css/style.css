@@ -128,7 +128,12 @@ margin-left: 1vw;
     color: blue;
 }
 
-    
+.our{
+    margin-top: 4vw;
+}  
+.our1{
+    position: absolute;
+}  
    
 .main{
     position: absolute;
