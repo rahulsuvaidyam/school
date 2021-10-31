@@ -129,15 +129,21 @@ margin-left: 1vw;
 }
 
 .our{
-    margin-top: 4vw;
+    width: 100%;
+    height: 70vw;
+    margin-top: 2vw;
 }  
 .our1{
     position: absolute;
+    margin-top: 2vw;
+    font-size: 2rem;
+    margin-left: 40vw;
+
 }  
    
 .main{
     position: absolute;
-    margin-top: 4vw;
+    margin-top: 8vw;
     display: flex;
     margin-left: 2vw;
     
@@ -167,9 +173,10 @@ margin-left: 1vw;
 
 
 .sec{
+    position: absolute;
     display: flex;
     margin-left: 2vw;
-    margin-top: 30vw;
+    margin-top: 33vw;
     
 }
 .sec1{
