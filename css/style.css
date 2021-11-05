@@ -223,26 +223,12 @@ margin-left: 1vw;
 
 
 
+/* =======================iphone 5/se================================== */
 
+@media only screen and (min-width:319px) and (max-width:355px) and (orientation:portrait) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =======================gailexy====================================== */
-
-@media only screen and  (max-width:360px) and (orientation:portrait) {
     .header{
-        height: 13vw;
+        height: 15vw;
     }
     .linkbar{
         display: none;
@@ -251,9 +237,15 @@ margin-left: 1vw;
         display:none;
     }
     .logo{
-        width: 13vw;
-        height: 12vw;
+        width: 17vw;
+        height: 14vw;
         
+    }
+    .rn{
+        margin-left: -4vw;
+        margin-top: 2vw;
+        width: 76vw;
+        position: absolute;
     }
     .name{
         margin-top: 2vw;
@@ -268,7 +260,7 @@ margin-left: 1vw;
     }
     .box{
         width: 90vw;
-        height: 180vw;
+        height: 211vw;
         border-radius: 2vw;
     }
     #paira{
@@ -281,12 +273,12 @@ margin-left: 1vw;
     }
     .boxl{
         width: 90vw;
-        height: 210vw;
+        height: 224vw;
         margin-top: 5vw;
         border-radius: 2vw;
     }
     .boxl1{
-        margin-left: 7vw;
+        width: 67vw;
     }
     .box12{
         margin-top: 5vw;
@@ -300,6 +292,14 @@ margin-left: 1vw;
     }
     .know{
         margin-left: 27vw;
+    }
+    .our{
+        margin-top: 14vw;
+    }
+    .our1{
+        margin-top: 224vw;
+        font-size: 1.3rem;
+        margin-left: 26vw;
     }
     .main{
         display: block;
@@ -330,6 +330,124 @@ margin-left: 1vw;
     }
     .foot{
         height: 159vw;
+        margin-top: 1002vw;
+    }
+    .foot1{
+        position: absolute;
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================gailexy====================================== */
+
+@media only screen and  (min-width:360px) and (orientation:portrait) {
+    .header{
+        height: 13vw;
+    }
+    .linkbar{
+        display: none;
+    }
+    .icon{
+        display:none;
+    }
+    .logo{
+        width: 13vw;
+        height: 12vw;
+        
+    }
+    .name{
+        margin-top: 2vw;
+        margin-left: 23vw;
+        font-size: 1.4rem;
+    }
+    .text{
+        margin-left: 89vw;
+        margin-top: 7vw;
+        display: block;
+        
+    }
+    .box{
+        width: 90vw;
+        height: 180vw;
+        border-radius: 2vw;
+    }
+    #paira{
+        font-size: 5vw;
+    }
+    #box1{
+        width: 84vw;
+        height: 38vw;
+        border-radius: 1vw;
+    }
+    .boxl{
+        width: 90vw;
+        height: 203vw;
+        margin-top: 5vw;
+        border-radius: 2vw;
+    }
+    .boxl1{
+        margin-left: 7vw;
+    }
+    .box12{
+        margin-top: 5vw;
+    }
+    #about{
+        font-size: 1.5rem;
+    }
+    #about1{
+        font-size: 1rem;
+        margin-top: 3vw;
+    }
+    .know{
+        margin-left: 27vw;
+    }
+    .our1{
+        margin-top: 224vw;
+        font-size: 1.3rem;
+        margin-left: 26vw;
+    }
+    .main{
+        display: block;
+        margin-top: 231vw;
+    }
+    .main1{
+        width: 90vw;
+        height: 90vw;
+        border-radius: 4vw;
+        margin-top: 8vw;
+    }
+    .box-img{
+        width: 87vw;
+        height: 69vw;
+        margin-top: 0.5vw;
+        margin-left: 0.5vw;
+        border-radius: 3vw;
+    }
+    .sec{
+        display: block;
+        margin-top: 631vw;
+    }
+    .sec1{
+        width: 90vw;
+        height: 90vw;
+        border-radius: 4vw;
+        margin-top: 8vw;
+    }
+    .foot{
+        height: 159vw;
+        margin-top: 1002vw;
     }
     .foot1{
         position: absolute;
@@ -359,9 +477,14 @@ margin-left: 1vw;
         margin: -1vw;
         font-size: 0.7rem;
     }
+    .our1{
+        margin-left: 36vw;
+        font-size: 1.3rem;
+    }
     .box{
         width: 43vw;
-        height: 109vw;
+        height: 111vw;
+        border-radius: 2vw;
 
     }
     #paira{
@@ -373,8 +496,9 @@ margin-left: 1vw;
     }
     .boxl{
         width: 43vw;
-        height: 109vw;
-        margin-top: -109vw;
+        height: 111vw;
+        margin-top: -111vw;
+        border-radius: 2vw;
 
     }
     #about{
@@ -429,12 +553,12 @@ margin-left: 1vw;
     }
     .boxl{
         width: 90vw;
-        height: 171vw;
+        height: 182vw;
         margin-top: 5vw;
         border-radius: 2vw;
     }
     .boxl1{
-        margin-left: 7vw;
+        width: 74vw;
     }
     .box12{
         margin-top: 5vw;
@@ -448,6 +572,12 @@ margin-left: 1vw;
     }
     .know{
         margin-left: 27vw;
+    }
+    .our1{
+        margin-top: 191vw;
+        margin-left: 28vw;
+        font-size: 1.5rem;
+
     }
     .main{
         display: block;
@@ -468,7 +598,7 @@ margin-left: 1vw;
     }
     .sec{
         display: block;
-        margin-top: 595vw;
+        margin-top: 586vw;
     }
     .sec1{
         width: 90vw;
@@ -478,6 +608,7 @@ margin-left: 1vw;
     }
     .foot{
         height: 185vw;
+        margin-top: 1002vw;
     }
     .foot1{
         position: absolute;
@@ -522,6 +653,11 @@ margin-left: 1vw;
         height: 94vw;border-radius: 1vw;
 
     }
+    .our1{
+        margin-top: 2vw;
+        margin-left: 39vw;
+        font-size: 1.3rem;
+    }
     #paira{
         font-size: 1rem;
     }
@@ -543,4 +679,242 @@ margin-left: 1vw;
         width: 20vw;
     }
     
+}
+
+
+/* ==================iphone 6/7/8 plus============================================= */
+
+@media only screen and (min-width:412px) and (max-width:416px) and (orientation:portrait){
+      
+    .header{
+        height: 18vw;
+    }
+    .logo{
+        width: 18vw;
+        height: 16vw;
+    }
+    .rn{
+        font-size: 1.7rem;
+        
+    }
+    .text {
+        display: block;
+        margin-left: 88vw;
+        margin-top: 4vw;
+    }
+    .linkbar{
+        display: none;
+    }
+    .box{
+        width: 90vw;
+        height: 156vw;
+        margin-top: 8vw;
+    }
+    #box1{
+        width: 84vw;
+        height: 46vw;
+    }
+    .boxl{
+        margin-top: 4vw;
+        width: 90vw;
+        height: 177vw;
+    }
+    .boxl1{
+        width: 69vw;
+    }
+    .our{
+        margin-top: 190vw;
+    }
+    .our1{
+        margin-left: 30vw;
+        margin-top: 1vw;
+        font-size: 1.5rem;
+    }
+    .know{
+        margin-left: 30vw;
+    }
+    .icon{
+        display: none;
+    }
+    .main{
+        display: block;
+        margin-top: 9vw;
+    }
+    .main1{
+        width: 89vw;
+        height: 70vw;
+        margin-top: 7vw;
+    }
+    .sec{
+        display: block;
+        margin-top: 317vw;
+    }
+    .sec1{
+        width: 89vw;
+        height: 70vw;
+        margin-top: 7vw;
+    }
+    .box-img{
+        width: 87vw;
+        height: 46vw;
+    }
+    .foot{
+        margin-top: 569vw;
+        height: 162vw;
+    }
+}
+
+
+/* =======================iphone X========================================== */
+@media only screen and (min-width:374px) and (max-width:380px) and (orientation:portrait){
+    .box{
+        height: 174vw;
+    }
+    .boxl{
+        height: 197vw;
+    }
+    .our{
+        margin-top: 12vw;
+    }
+
+}
+
+
+/* ===========================ipad======================================== */
+
+@media only screen and (min-width:765px) and (max-width:770px) and (orientation:portrait){
+    .header{
+        height: 20vw;
+    }
+    .logo{
+        width: 21vw;
+        height: 19vw;
+    }
+    .rn{
+        font-size: 3rem;
+        position: absolute;
+        width: 66vw;
+        margin-top: 4vw;
+    
+    }
+    .box{
+        height: 170vw;
+    }
+    #paira{
+        font-size: 7vw;
+    }
+    .box2{
+        font-size: 2rem
+    }
+    .know{
+        margin-left: 32vw;
+            font-size: 2rem;
+            margin-top: 7vw;
+    }
+    #about{
+        font-size: 3.5rem;
+    }
+    #about1{
+        font-size: 2rem;
+    }
+    .boxl{
+        height: 189vw;
+    }
+    .boxl1{
+        width: 72vw;
+    }
+    .boxl2{
+        font-size: 2rem;
+    }
+    .our1{
+        font-size: 3rem;
+        margin-top: 200vw;
+    }
+    .main{
+        margin-top: 207vw;
+    }
+    .box-img{
+        width: 88vw;
+    }
+}
+
+
+
+/* ================================ipad pro========================== */
+
+
+@media only screen and (min-width:990px) and (max-width:1030px) and (orientation:portrait) {
+    .header{
+        height: 13vw;
+    }
+    .logo{
+        width: 14vw;
+        height: 12vw;
+    }
+    .rn{
+        margin-left: -4vw;
+        font-size: 4rem;
+    
+    }
+    .linkbar{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .text{
+        display: block;
+        margin-top: 4vw;
+        margin-left: 93vw;
+    }
+    .box{
+        
+        height: 64vw;
+        width: 41vw;
+        border-radius: 1vw;
+    }
+    #paira{
+        font-size: 3vw;
+    }
+    #box1{
+        width: 36vw;
+        height: 17vw;
+    }
+    .boxl{
+        margin-top: -64vw;
+        height: 64vw;
+        width: 40.3vw;
+        border-radius: 1vw;
+        
+    }
+    #about{
+        font-size: 3vw;
+    }
+    .boxl1{
+        margin-top: 0%;
+        width: 19vw;
+        margin-left: 10vw;
+    }
+    .know{
+        margin-left: 14vw;
+        font-size: 1.3rem;
+    }
+    .our{
+        margin-top: -216vw;
+    }
+    .our1{
+        font-size: 4rem;
+    }
+}
+@media only screen and (min-width:1360px) and (max-width:1370px) and (orientation:landscape) {
+  .box{
+      height: 49vw;
+      border-radius: 1vw;
+  } 
+  .boxl{
+      width: 42vw;
+      height: 49vw;
+      margin-top: -49vw;
+      border-radius: 1vw;
+  }     
 }
