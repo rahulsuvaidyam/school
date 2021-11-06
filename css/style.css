@@ -216,7 +216,80 @@ margin-left: 1vw;
     background-color: rgb(25, 22, 36);
 }
 .foot1{
-    display: none;
+    position: absolute;
+    margin-top: 18vw;
+    margin-left: 5vw;
+    
+}
+.foot2{
+    position: absolute;
+    color: white;
+    
+}
+#foot21{
+    font-size: 2rem;
+    margin-top: 3vw;
+    margin-left: 32vw;
+}
+#foot22{
+    margin-left: 32vw;
+    font-size: 1.1rem;
+}
+.foot3{
+    position: absolute;
+    color: white;
+}
+#foot31{
+    margin-left: 70vw;
+    margin-top: 3vw;
+    font-size: 2rem;
+}
+.fa-home{
+    margin-left: 73vw;
+    font-size: 3vw;
+}
+#foot32{
+    margin-left: 76vw;
+    margin-top: -1.6vw;
+    font-size: 1.3rem;
+}
+#foot33{
+    margin-left: 76vw;
+    
+    font-size: 1.3rem;
+}
+#foot34{
+    margin-left: 73vw;
+    font-size: 2.5vw;   
+}
+#foot35{
+    margin-left: 76vw;
+    margin-top: -1.8vw;
+    font-size: 1.3vw;   
+}
+#foot36{
+    margin-left: 74.5vw;
+    margin-top: -1vw;
+    position: absolute;
+    color: yellowgreen  ;
+      
+}
+.foot4{
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 10vw;
+}
+#foot41{
+    width: 8vw;
+    border-radius: 18vw;
+}
+#foot42{
+    color: white;
+    font-size: 2.3rem;
+    margin-left: -6vw;
+    margin-top: 2vw;
+   
+    
 }
 
 
@@ -501,12 +574,88 @@ margin-left: 1vw;
         margin-top: 8vw;
     }
     .foot{
-        height: 159vw;
+        height: 266vw;
         margin-top: 1002vw;
     }
     .foot1{
         position: absolute;
         display: block;
+        margin-top: 249vw;
+        margin-left: 10vw;
+    }
+
+    .foot2{
+        position: absolute;
+        color: white;
+        margin-left: 4vw;
+        
+    }
+    #foot21{
+        font-size: 2rem;
+        margin-top: 84vw;
+        margin-left: 3vw;
+    }
+    #foot22{
+        margin-left: 3vw;
+        font-size: 1rem;
+    }
+    .foot3{
+        position: absolute;
+        color: white;
+        margin-top: 144vw;
+    }
+    #foot31{
+        margin-left: 7vw;
+        margin-top: 3vw;
+        font-size: 2rem;
+    }
+    .fa-home{
+        margin-left: 9vw;
+        font-size: 14vw;
+    }
+    #foot32{
+        margin-left: 26vw;
+        margin-top: -8.6vw;
+        font-size: 1.3rem;
+    }
+    #foot33{
+        margin-left: 26vw;
+        
+        font-size: 1.3rem;
+    }
+    #foot34{
+        margin-left: 10vw;
+        font-size: 11.5vw;   
+    }
+    #foot35{
+        margin-left: 26vw;
+        margin-top: -8.8vw;
+        font-size: 6.3vw;   
+    }
+    #foot36{
+        margin-left: 19vw;
+        margin-top: -3vw;
+        position: absolute;
+        color: yellowgreen  ;
+          
+    }
+    .foot4{
+        position: absolute;
+        margin-top: 3vw;
+        margin-left: 10vw;
+    }
+    #foot41{
+        width: 60vw;
+        border-radius: 35vw;
+        margin-left: 10vw;
+    }
+    #foot42{
+        color: white;
+        font-size: 2rem;
+        margin-left: -1vw;
+        margin-top: 2vw;
+       
+        
     }
 }
 @media only screen and  (max-width:640px) and (orientation:landscape) {
@@ -562,6 +711,9 @@ margin-left: 1vw;
     .boxl1{
         width: 20vw;
     }
+    .ab{
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -595,7 +747,7 @@ margin-left: 1vw;
     }
     .box{
         width: 90vw;
-        height: 146vw;
+        height: 148vw;
         border-radius: 2vw;
     }
     #paira{
@@ -608,7 +760,7 @@ margin-left: 1vw;
     }
     .boxl{
         width: 90vw;
-        height: 182vw;
+        height: 181vw;
         margin-top: 5vw;
         border-radius: 2vw;
     }
@@ -627,6 +779,9 @@ margin-left: 1vw;
     }
     .know{
         margin-left: 27vw;
+    }
+    .our{
+        margin-top: 17vw;
     }
     .our1{
         margin-top: 191vw;
@@ -675,7 +830,8 @@ margin-left: 1vw;
         height: 13vw;
     }
     .linkbar{
-        margin-left: 43vw;
+        margin-left: 39vw;
+        margin-top: 1vw;
     }
     .icon{
         display: none;
@@ -695,13 +851,14 @@ margin-left: 1vw;
         
     }
     .rn{
-        font-size: 1.3rem;
-        margin-left: -5vw;
+        font-size: 2rem;
+        margin-left: -6vw;
+        
     }
     
     a{
         margin: -1vw;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     .box{
         width: 43vw;
@@ -733,13 +890,16 @@ margin-left: 1vw;
     .boxl1{
         width: 20vw;
     }
+    .ab{
+        font-size: 1.5rem;
+    }
     
 }
 
 
 /* ==================iphone 6/7/8 plus============================================= */
 
-@media only screen and (min-width:412px) and (max-width:416px) and (orientation:portrait){
+@media only screen and (min-width:412px) and (max-width:500vw) and (orientation:portrait){
       
     .header{
         height: 18vw;
@@ -853,7 +1013,7 @@ margin-left: 1vw;
     
     }
     .box{
-        height: 170vw;
+        height: 177vw;
     }
     #paira{
         font-size: 7vw;
@@ -907,8 +1067,8 @@ margin-left: 1vw;
         height: 12vw;
     }
     .rn{
-        margin-left: -4vw;
-        font-size: 4rem;
+
+        font-size: 5rem;
     
     }
     .linkbar{
@@ -955,10 +1115,12 @@ margin-left: 1vw;
         font-size: 1.3rem;
     }
     .our{
-        margin-top: -216vw;
+        margin-top: 4vw;
     }
     .our1{
-        font-size: 4rem;
+        font-size: 3rem;
+        margin-top: 6vw;
+        margin-left: 31vw;
     }
 }
 @media only screen and (min-width:1360px) and (max-width:1370px) and (orientation:landscape) {
@@ -972,4 +1134,123 @@ margin-left: 1vw;
       margin-top: -49vw;
       border-radius: 1vw;
   }     
+}
+
+
+@media only screen and (min-width:798px) and (max-width:900px) and (orientation:landscape){
+    
+    .icon{
+        display: none;
+    }
+    .header{
+        height: 11vw;
+    }
+    .logo{
+        width: 11vw;
+        height: 9vw;
+    }
+    a{
+        font-size: 0.8rem;
+    }
+    .rn{
+        position: absolute;
+        margin-left: 2vw;
+        font-size: 1.5rem;
+        width: 62vw;
+        margin-top: 3vw;
+    }
+    .box{
+        width: 43vw;
+        height: 86vw;
+    }
+    #box1{
+        width: 38vw;
+        height: 19vw;
+    }
+    .know{
+        margin-left: 13vw;
+    }
+    .boxl{
+        width: 43vw;
+        height: 86vw;
+        margin-top: -86vw;
+    }
+    .boxl1{
+        width: 23vw;
+    }
+}
+
+@media only screen and (min-width:660px) and (max-width:729px) and (orientation:landscape){
+  .header{
+      height: 11vw;
+  }
+  .logo{
+      width: 12vw;
+      height: 10vw;
+  }
+  .rn{
+      font-size: 2rem;
+      margin-left: 3vw;
+  }
+  a{
+      font-size: 0.8rem;
+  }
+  .icon{
+      display: none;
+  }
+  ul{
+      margin-left: 11vw;
+  }
+  li{
+      margin: -2vw;
+  }
+  .box{
+      height: 109vw;
+  }
+  .boxl{
+      height: 109vw;
+      margin-top: -109vw;
+  }
+  .boxl1{
+      width: 22vw;
+  }
+  .know{
+      margin-left: 13vw;
+  }
+  .our1{
+      font-size: 1.5rem;
+      margin-left: 35vw;
+  }
+  .main{
+      margin-top: 10vw;
+  }
+  .sec{
+      margin-top: 36vw;
+  }
+}
+
+@media only screen and (min-width:761px) and (max-width:797px) and (orientation:landscape){
+    .header{
+        height: 11vw;
+    }
+    .logo{
+        width: 12vw;
+        height: 10vw;
+    }
+    .rn{
+        font-size: 2rem;
+        margin-left: 3vw;
+    }
+    a{
+        font-size: 1rem;
+    }
+    .icon{
+        display: none;
+    }
+    ul{
+        margin-left: 11vw;
+    }
+    li{
+        margin: -2vw;
+    } 
 }
