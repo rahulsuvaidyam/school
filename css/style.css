@@ -55,12 +55,10 @@ a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-    /* .fa-twitter{
-        margin: 1vw;
-    }
-    .fa-linkedin{
-        margin: 1vw;
-    } */
+.face{
+    font-size: 2rem;
+    color: white;
+}
 .text{
     position: absolute;
     margin-left: 95vw;
@@ -269,9 +267,9 @@ margin-left: 1vw;
 }
 #foot36{
     margin-left: 74.5vw;
-    margin-top: -1vw;
+    margin-top: 1vw;
     position: absolute;
-    color: yellowgreen  ;
+    color: blue ;
       
 }
 .foot4{
@@ -437,12 +435,94 @@ margin-left: 1vw;
         margin-top: 8vw;
     }
     .foot{
-        height: 159vw;
+        height: 300vw;
         margin-top: 1002vw;
     }
+    
     .foot1{
         position: absolute;
         display: block;
+        margin-top: 260vw;
+        margin-left: 10vw;
+    }
+
+    .foot2{
+        position: absolute;
+        color: white;
+        margin-left: 4vw;
+        
+    }
+    #foot21{
+        font-size: 1.8rem;
+        margin-top: 84vw;
+        margin-left: 3vw;
+    }
+    #foot22{
+        margin-left: 3vw;
+        font-size: 0.9rem;
+    }
+    /* .foot3{
+        position: absolute;
+        color: white;
+        margin-top: 144vw;
+    } */
+    #foot31{
+        margin-left: 7vw;
+        margin-top: 151vw;
+        font-size: 1.7rem;
+    }
+    .fa-home{
+        margin-left: 9vw;
+        font-size: 14vw;
+    }
+    #foot32{
+        margin-left: 26vw;
+        margin-top: -8.6vw;
+        font-size: 1.3rem;
+    }
+    #foot33{
+        margin-left: 26vw;
+        
+        font-size: 1.3rem;
+    }
+    #foot34{
+        margin-left: 10vw;
+        font-size: 11.5vw;   
+    }
+    #foot35{
+        margin-left: 26vw;
+        margin-top: -8.8vw;
+        font-size: 6.3vw;   
+    }
+    #foot36{
+        margin-left: 9vw;
+        margin-top: 5vw;
+        position: absolute;
+        color: yellowgreen  ;
+          
+    }
+    /* .foot4{
+        position: absolute;
+        margin-top: 3vw;
+        margin-left: 10vw;
+    } */
+    #foot41{
+        width: 60vw;
+        border-radius: 35vw;
+        margin-left: 10vw;
+    }
+    #foot42{
+        color: white;
+        font-size: 1.7rem;
+        margin-top: 2vw;
+        margin-left: 1vw;
+       
+        
+    }
+    .face{
+        margin-top: 14vw;
+        margin-left: -1vw;
+        font-size: 1.5rem;
     }
 }
 
@@ -483,8 +563,8 @@ margin-left: 1vw;
         height: 190vw;
     }
     .ab{
-        font-size: 1rem;
-        margin-left: 33vw;
+        font-size: 3rem;
+        margin-left: 34vw;
     }
     .sch-co{
         margin-top: 1vw;
@@ -634,7 +714,6 @@ margin-left: 1vw;
     }
     #foot36{
         margin-left: 19vw;
-        margin-top: -3vw;
         position: absolute;
         color: yellowgreen  ;
           
@@ -817,7 +896,7 @@ margin-left: 1vw;
         margin-top: 8vw;
     }
     .foot{
-        height: 185vw;
+        height: 266vw;
         margin-top: 1002vw;
     }
     .foot1{
@@ -975,7 +1054,14 @@ margin-left: 1vw;
     }
     .foot{
         margin-top: 569vw;
-        height: 162vw;
+        height: 262vw;
+    }
+    .foot1{
+        margin-top: 244vw;
+        margin-left: 18vw;
+    }
+    .face{
+        margin-left: -2vw;
     }
 }
 
@@ -1051,6 +1137,39 @@ margin-left: 1vw;
     .box-img{
         width: 88vw;
     }
+    #foot21{
+        font-size: 4rem;
+        margin-left: 4vw;
+    }
+    #foot22{
+        font-size: 2rem;
+        margin-left: 4vw;
+    }
+    #foot31{
+        font-size: 4rem;
+        margin-left: 8vw;
+    }
+    #foot32{
+        font-size: 2.7rem;
+        
+    }
+    #foot33{
+        font-size: 2.7rem;
+        
+    }
+    #foot36{
+        font-size: 2.5rem;
+        
+    }
+    #foot42{
+        font-size: 4rem;
+        margin-left: 1vw;
+        
+    }
+    .face{
+        font-size: 3rem;
+        margin: 3vw;
+    }
 }
 
 
@@ -1121,6 +1240,42 @@ margin-left: 1vw;
         font-size: 3rem;
         margin-top: 6vw;
         margin-left: 31vw;
+    }
+    #foot21{
+        font-size: 5rem;
+        margin-left: 4vw;
+    }
+    #foot22{
+        font-size: 2.7rem;
+        margin-left: 4vw;
+    }
+    #foot31{
+        font-size: 5rem;
+        margin-left: 8vw;
+    }
+    #foot32{
+        font-size: 3rem;
+        
+    }
+    #foot33{
+        font-size: 2.7rem;
+        
+    }
+    #foot36{
+        font-size: 3.4rem;
+        margin-top: 1vw;
+        margin-left: 24vw;
+        
+    }
+    #foot42{
+        font-size: 5rem;
+        margin-left: 3vw;
+        
+    }
+    .face{
+        font-size: 4rem;
+        margin: 4vw;
+        margin-left: 2vw;
     }
 }
 @media only screen and (min-width:1360px) and (max-width:1370px) and (orientation:landscape) {
