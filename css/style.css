@@ -41,10 +41,7 @@ a{
     font-family: "Gill Sans", sans-serif;
     font-size: 1.2rem;
 }
-/* a:hover{
-    background-color: rgb(182, 75, 75);
-    color: black;
-} */
+
 .icon{
     position: absolute;
     margin-left: 80vw;
@@ -58,7 +55,36 @@ a{
 .face{
     font-size: 2rem;
     color: white;
+    background-color: blue;
+    border: 1px solid black;
+    padding: 5px 13px;
+    border-radius: 5vw;
 }
+.twit{
+    font-size: 2rem;
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+    padding: 6px 8px;
+    border-radius: 5vw;
+}
+.insta{
+    font-size: 2rem;
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+    padding: 6px 9px;
+    border-radius: 5vw;
+}
+.lin{
+    font-size: 2rem;
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+    padding: 6px 9px;
+    border-radius: 5vw;
+}
+
 .text{
     position: absolute;
     margin-left: 95vw;
@@ -216,7 +242,7 @@ margin-left: 1vw;
 .foot1{
     position: absolute;
     margin-top: 18vw;
-    margin-left: 5vw;
+    margin-left: 2.5vw;
     
 }
 .foot2{
@@ -360,7 +386,7 @@ margin-left: 1vw;
     }
     .text{
         margin-left: 87vw;
-        margin-top: 2vw;
+        margin-top: 3vw;
         display: block;
         
     }
@@ -435,15 +461,15 @@ margin-left: 1vw;
         margin-top: 8vw;
     }
     .foot{
-        height: 300vw;
+        height: 276vw;
         margin-top: 1002vw;
     }
     
     .foot1{
         position: absolute;
         display: block;
-        margin-top: 260vw;
-        margin-left: 10vw;
+        margin-top: 253vw;
+        margin-left: 2vw;
     }
 
     .foot2{
@@ -461,11 +487,7 @@ margin-left: 1vw;
         margin-left: 3vw;
         font-size: 0.9rem;
     }
-    /* .foot3{
-        position: absolute;
-        color: white;
-        margin-top: 144vw;
-    } */
+    
     #foot31{
         margin-left: 7vw;
         margin-top: 151vw;
@@ -490,22 +512,20 @@ margin-left: 1vw;
         font-size: 11.5vw;   
     }
     #foot35{
-        margin-left: 26vw;
-        margin-top: -8.8vw;
-        font-size: 6.3vw;   
-    }
-    #foot36{
-        margin-left: 9vw;
-        margin-top: 5vw;
-        position: absolute;
-        color: yellowgreen  ;
-          
-    }
-    /* .foot4{
-        position: absolute;
-        margin-top: 3vw;
-        margin-left: 10vw;
-    } */
+        font-size: 5vw; 
+        margin-top: -6.8vw; 
+        margin-left: 22vw; 
+      
+ }
+ #foot36{
+     margin-left: 32vw;
+     margin-top: -12vw;
+     font-size: 13px;
+     color: blue;
+
+
+ }
+    
     #foot41{
         width: 60vw;
         border-radius: 35vw;
@@ -520,9 +540,31 @@ margin-left: 1vw;
         
     }
     .face{
-        margin-top: 14vw;
-        margin-left: -1vw;
         font-size: 1.5rem;
+        padding: 4px 10px;
+    }
+    .twit{
+        font-size: 1.5rem;
+        padding: 4px 6px;
+        margin-left: -4vw;
+    }
+    .insta{
+        font-size: 1.5rem;
+        padding: 4px 7px;
+        margin-left: -2vw;
+    }
+    .lin{
+        font-size: 1.5rem;
+        padding: 4px 6.5px;
+        margin-left: -2vw;
+       
+    }
+    .raj{
+        font-size: 2.3rem;
+    }
+    .co{
+        font-size: 1.5rem;
+        margin-left: 26vw;
     }
 }
 
@@ -563,8 +605,8 @@ margin-left: 1vw;
         height: 190vw;
     }
     .ab{
-        font-size: 3rem;
-        margin-left: 34vw;
+        font-size: 1.3rem;
+        margin-left: 27vw;
     }
     .sch-co{
         margin-top: 1vw;
@@ -572,8 +614,8 @@ margin-left: 1vw;
     }
     .co{
         position: absolute;
-        font-size: 1rem;
-        margin-left: 37vw;
+        font-size: 1.5rem;
+        margin-left: 32vw;
     }
     .name{
         margin-top: 2vw;
@@ -582,7 +624,7 @@ margin-left: 1vw;
     }
     .text{
         margin-left: 89vw;
-        margin-top: 2vw;
+        margin-top: 3vw;
         display: block;
         
     }
@@ -654,13 +696,13 @@ margin-left: 1vw;
         margin-top: 8vw;
     }
     .foot{
-        height: 266vw;
+        height: 258vw;
         margin-top: 1002vw;
     }
     .foot1{
         position: absolute;
         display: block;
-        margin-top: 249vw;
+        margin-top: 238vw;
         margin-left: 10vw;
     }
 
@@ -705,17 +747,19 @@ margin-left: 1vw;
     }
     #foot34{
         margin-left: 10vw;
-        font-size: 11.5vw;   
+        font-size: 9.5vw;   
     }
     #foot35{
-        margin-left: 26vw;
-        margin-top: -8.8vw;
-        font-size: 6.3vw;   
+        margin-left: 21vw;
+        margin-top: -5.8vw;
+        font-size: 1rem;   
     }
     #foot36{
-        margin-left: 19vw;
+        margin-top: -11.2vw;
+        font-size: 1rem;
+        margin-left: 30vw;
         position: absolute;
-        color: yellowgreen  ;
+        color:blue;
           
     }
     .foot4{
@@ -735,6 +779,30 @@ margin-left: 1vw;
         margin-top: 2vw;
        
         
+    }
+    .face{
+        font-size: 1.5rem;
+        padding: 4px 10px;
+        margin-left: -4vw;
+    }
+    .twit{
+        font-size: 1.5rem;
+        padding: 4px 6px;
+        margin-left: -2vw;
+    }
+    .insta{
+        font-size: 1.5rem;
+        padding: 4px 7px;
+        margin-left: -2vw;
+    }
+    .lin{
+        font-size: 1.5rem;
+        padding: 4px 6.5px;
+        margin-left: -2vw;
+       
+    }
+    .raj{
+        font-size: 2rem;
     }
 }
 @media only screen and  (max-width:640px) and (orientation:landscape) {
@@ -819,8 +887,8 @@ margin-left: 1vw;
         font-size: 1.6rem;
     }
     .text{
-        margin-left: 87vw;
-        margin-top: 2vw;
+        margin-left: 89vw;
+        margin-top: 3vw;
         display: block;
         
     }
@@ -896,12 +964,59 @@ margin-left: 1vw;
         margin-top: 8vw;
     }
     .foot{
-        height: 266vw;
+        height: 252vw;
         margin-top: 1002vw;
     }
     .foot1{
         position: absolute;
         display: block;
+        margin-top: 231vw;
+    }
+    #foot35{
+           font-size: 1.5rem; 
+           margin-top: -7.2vw;  
+         
+    }
+    #foot36{
+        margin-top: -10.9vw;
+        margin-left: 34vw;
+        font-size: 1.1rem;
+        color: blue;
+
+
+    }
+
+    .ab{
+        font-size: 1.5rem;
+        margin-left: 26vw;
+    }
+    .co{
+        font-size: 1.5rem;
+        margin-left: 32vw;
+    }
+    .face{
+        font-size: 1.5rem;
+        padding: 7px 13px;
+        margin-left: -1vw;
+    }
+    .twit{
+        font-size: 1.5rem;
+        padding: 7px 9px;
+        margin-left: -2vw;
+    }
+    .insta{
+        font-size: 1.5rem;
+        padding: 7px 10px;
+        margin-left: -2vw;
+    }
+    .lin{
+        font-size: 1.5rem;
+        padding: 7px 9px;
+        margin-left: -2vw;
+       
+    }
+    .raj{
+        font-size: 2.5rem;
     }
 }
 @media only screen and (min-width:731px) and (max-width:760px) and (orientation:landscape) {
@@ -993,8 +1108,8 @@ margin-left: 1vw;
     }
     .text {
         display: block;
-        margin-left: 88vw;
-        margin-top: 4vw;
+        margin-left: 87vw;
+        margin-top: 5vw;
     }
     .linkbar{
         display: none;
@@ -1039,6 +1154,10 @@ margin-left: 1vw;
         height: 70vw;
         margin-top: 7vw;
     }
+    .ab{
+        font-size: 2rem;
+        margin-left: 20vw;
+    }
     .sec{
         display: block;
         margin-top: 317vw;
@@ -1060,8 +1179,37 @@ margin-left: 1vw;
         margin-top: 244vw;
         margin-left: 18vw;
     }
+    #foot35{
+        margin-top: -4.5vw;
+    }
+    #foot36{
+        margin-top: -10.2vw;
+        font-size: 1.1rem;
+    }
+
     .face{
+        font-size: 1.5rem;
+        padding: 7px 13px;
+        margin-left: -8vw;
+    }
+    .twit{
+        font-size: 1.5rem;
+        padding: 7px 9px;
         margin-left: -2vw;
+    }
+    .insta{
+        font-size: 1.5rem;
+        padding: 7px 10px;
+        margin-left: -2vw;
+    }
+    .lin{
+        font-size: 1.5rem;
+        padding: 7px 9px;
+        margin-left: -2vw;
+       
+    }
+    .raj{
+        font-size: 3rem;
     }
 }
 
@@ -1077,7 +1225,26 @@ margin-left: 1vw;
     .our{
         margin-top: 12vw;
     }
+    #foot35{
+        font-size: 1.2rem;
+        margin-top: -7.2vw;
+    }
+    #foot36{
+        margin-top: -10.9vw;
+        margin-left: 32vw;
+        font-size: 1rem;
+    }
+    .face{
+        margin-left: -5vw;
 
+    }
+    .text{
+        margin-left: 88vw;
+    }
+    .raj{
+        font-size: 2.4rem;
+    }
+   
 }
 
 
@@ -1137,6 +1304,22 @@ margin-left: 1vw;
     .box-img{
         width: 88vw;
     }
+    .text{
+        margin-left: 85vw;
+    }
+    .ab{
+        font-size: 3.5rem;
+        margin-left: 23vw;
+    }
+    .co{
+        font-size: 2.5rem;
+    }
+    .foot{
+        height: 253vw;
+    }
+    .foot1{
+        margin-top: 233vw;
+    }
     #foot21{
         font-size: 4rem;
         margin-left: 4vw;
@@ -1157,8 +1340,15 @@ margin-left: 1vw;
         font-size: 2.7rem;
         
     }
+    #foot35{
+        font-size: 3rem;
+        margin-top: -8.5vw;
+    }
     #foot36{
-        font-size: 2.5rem;
+        margin-top: -9vw;
+        margin-left: 38vw;
+        font-size: 2rem;
+
         
     }
     #foot42{
@@ -1167,8 +1357,28 @@ margin-left: 1vw;
         
     }
     .face{
-        font-size: 3rem;
-        margin: 3vw;
+        font-size: 3.5rem;
+        padding: 11px 25px;
+        margin-left: -8vw;
+    }
+    .twit{
+        font-size: 3.5rem;
+        padding: 11px 14px; 
+        margin-left: 3vw;
+    }
+    .insta{
+        font-size: 3.5rem;
+        padding: 11px 17px;
+        margin-left: 3vw;
+    }
+    .lin{
+        font-size: 3.5rem;
+        padding: 11px 17px;
+        margin-left: 3vw;
+       
+    }
+    .raj{
+        font-size: 6.5rem;
     }
 }
 
@@ -1198,8 +1408,8 @@ margin-left: 1vw;
     }
     .text{
         display: block;
-        margin-top: 4vw;
-        margin-left: 93vw;
+        margin-top: 3vw;
+        margin-left: 89vw;
     }
     .box{
         
@@ -1241,6 +1451,20 @@ margin-left: 1vw;
         margin-top: 6vw;
         margin-left: 31vw;
     }
+    .ab{
+        font-size: 4.2rem;
+        margin-left: 25vw;
+    }
+    .co{
+        font-size: 3.5rem;
+    }
+    .foot{
+        height: 242vw;
+    }
+    .foot1{
+        margin-top: 222vw;
+    }
+    
     #foot21{
         font-size: 5rem;
         margin-left: 4vw;
@@ -1261,10 +1485,15 @@ margin-left: 1vw;
         font-size: 2.7rem;
         
     }
+    #foot35{
+        font-size: 3rem;
+        margin-top: -6vw;
+        
+    }
     #foot36{
-        font-size: 3.4rem;
-        margin-top: 1vw;
-        margin-left: 24vw;
+        font-size: 2.4rem;
+        margin-top: -7vw;
+        margin-left: 35vw;
         
     }
     #foot42{
@@ -1273,9 +1502,28 @@ margin-left: 1vw;
         
     }
     .face{
-        font-size: 4rem;
-        margin: 4vw;
-        margin-left: 2vw;
+        font-size: 4.5rem;
+        padding: 10px 27px;
+        margin-left: -2vw;
+    }
+    .twit{
+        font-size: 4.5rem;
+        padding: 11px 14px; 
+        margin-left: 3vw;
+    }
+    .insta{
+        font-size: 4.5rem;
+        padding: 11px 17px;
+        margin-left: 3vw;
+    }
+    .lin{
+        font-size: 4.5rem;
+        padding: 11px 17px;
+        margin-left: 3vw;
+       
+    }
+    .raj{
+        font-size: 6rem;
     }
 }
 @media only screen and (min-width:1360px) and (max-width:1370px) and (orientation:landscape) {
