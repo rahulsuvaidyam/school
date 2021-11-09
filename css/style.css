@@ -4,7 +4,7 @@
 }
 .header{
     width: 100%;
-    height: 7vw;
+    height: 9vw;
     background-color: white;
     opacity: 0.9;
     z-index: -1;
@@ -13,7 +13,7 @@
 .logo{
     position: absolute;
     width: 10vw;
-    height: 6vw;
+    height: 8vw;
     margin-left:0.6vw;
     margin-top: 0.5vw;
 }
@@ -21,35 +21,27 @@
     position: absolute;
     font-size: 2.5rem;
     margin-left: 11vw;
-    margin-top: 2vw;
+    margin-top: 4vw;
 }
-.linkbar{
-    position: absolute;
-    margin-top: 3vw;
-    margin-left: 35vw;
-}
-ul{
-    display: flex;
-    list-style: none;
-    margin-right: 3vw;
-}
-a{
-    text-decoration: none;
-    color:black;
-    border-radius: 2vw;
-    padding: 3px 22px;
-    font-family: "Gill Sans", sans-serif;
-    font-size: 1.2rem;
-}
+
 
 .icon{
     position: absolute;
-    margin-left: 80vw;
-    margin-top: 5vw;
-    
+    margin-left: 76vw;
+    margin-top: 1.5vw;
+}
+.for{
+    font-size: 1.8rem;
+    margin-left: 2vw;
 }
 .rn{
+
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .face{
@@ -218,6 +210,46 @@ margin-left: 1vw;
     box-shadow: whitesmoke 3px 3px 3px 3px;
     margin-left: 3vw;
 }
+/* ====================NAVBAR============================ */
+
+nav{
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    position: absolute;
+    margin-left: 30VW;
+     float: right;
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 1vw;
+    line-height: 80px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 
 
 .main1:hover{
@@ -292,8 +324,8 @@ margin-left: 1vw;
     font-size: 1.3vw;   
 }
 #foot36{
-    margin-left: 74.5vw;
-    margin-top: 1vw;
+    margin-left: 78.5vw;
+    margin-top: -3vw;
     position: absolute;
     color: blue ;
       
@@ -347,10 +379,6 @@ margin-left: 1vw;
     margin-left: 40vw;
     font-size: 2.5rem;
 }
-
-
-
-
 
 
 
@@ -434,7 +462,7 @@ margin-left: 1vw;
         margin-left: 26vw;
     }
     .main{
-        display: block;
+        flex-direction: column;
         margin-top: 231vw;
     }
     .main1{
@@ -559,9 +587,7 @@ margin-left: 1vw;
         margin-left: -2vw;
        
     }
-    .raj{
-        font-size: 2.3rem;
-    }
+    
     .co{
         font-size: 1.5rem;
         margin-left: 26vw;
@@ -596,6 +622,38 @@ margin-left: 1vw;
         width: 13vw;
         height: 12vw;
         
+    }
+    .checkbtn{
+        display: block;
+    } 
+    ul{
+        position: absolute;
+        width: 100%;
+        height: 65vh;
+        background:black;
+        top: 80px;
+        right: 100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display:block;
+         margin: 33px 0;
+         line-height: 30px;
+    } 
+    nav ul li a{
+        font-size: 20px;
+        color:blue;
+        
+    }
+    a:hover,a.active{
+        background: none; 
+        
+
+    }  
+    #check:checked ~ ul{
+       right: 0;
+  
     }
     .linkabout{
         display: none;
@@ -755,7 +813,7 @@ margin-left: 1vw;
         font-size: 1rem;   
     }
     #foot36{
-        margin-top: -11.2vw;
+        margin-top: -11.4vw;
         font-size: 1rem;
         margin-left: 30vw;
         position: absolute;
@@ -801,9 +859,7 @@ margin-left: 1vw;
         margin-left: -2vw;
        
     }
-    .raj{
-        font-size: 2rem;
-    }
+    
 }
 @media only screen and  (max-width:640px) and (orientation:landscape) {
     .header{
@@ -978,7 +1034,7 @@ margin-left: 1vw;
          
     }
     #foot36{
-        margin-top: -10.9vw;
+        margin-top: -11.3vw;
         margin-left: 34vw;
         font-size: 1.1rem;
         color: blue;
@@ -1015,9 +1071,7 @@ margin-left: 1vw;
         margin-left: -2vw;
        
     }
-    .raj{
-        font-size: 2.5rem;
-    }
+    
 }
 @media only screen and (min-width:731px) and (max-width:760px) and (orientation:landscape) {
     .header{
@@ -1208,9 +1262,7 @@ margin-left: 1vw;
         margin-left: -2vw;
        
     }
-    .raj{
-        font-size: 3rem;
-    }
+    
 }
 
 
@@ -1231,7 +1283,7 @@ margin-left: 1vw;
     }
     #foot36{
         margin-top: -10.9vw;
-        margin-left: 32vw;
+        margin-left: 31vw;
         font-size: 1rem;
     }
     .face{
@@ -1241,9 +1293,7 @@ margin-left: 1vw;
     .text{
         margin-left: 88vw;
     }
-    .raj{
-        font-size: 2.4rem;
-    }
+    
    
 }
 
@@ -1377,9 +1427,7 @@ margin-left: 1vw;
         margin-left: 3vw;
        
     }
-    .raj{
-        font-size: 6.5rem;
-    }
+    
 }
 
 
@@ -1522,10 +1570,257 @@ margin-left: 1vw;
         margin-left: 3vw;
        
     }
-    .raj{
-        font-size: 6rem;
+    
+}
+/* ==================================nest hub======================================= */
+@media only screen and (min-width:1023px) and (max-width:1040px) and (orientation:landscape){
+  
+    .header{
+        height: 11vw;
+    }
+    .logo{
+        width: 11vw;
+        height: 10vw;
+    }
+    .rn{
+        position: absolute;
+        width: 40vw;
+        margin-top: 3.5vw;
+        margin-left: 1vw;
+    }
+    .linkbar{
+        margin-left: 38vw;
+    }
+    .icon{
+        margin-top: 8vw;
+        margin-left: 73vw;
+    }
+    .box{
+        height: 63vw;
+    }
+    .boxl{
+        margin-top: -63vw;
+        height: 63vw;
+    }
+    .boxl1{
+        width: 18vw;
+    }
+    .know{
+        margin-left: 14vw;
+    }
+    .foot{
+        height: 31vw;
+    }
+    .foot1{
+        margin-left: 3.5vw;
+    }
+    #foot21{
+        font-size: 1.5rem;
+    }
+    #foot22{
+        font-size: 0.9rem;
+    }
+    .foot3{
+        margin-left: -2vw;
+    }
+    #foot31{
+        font-size: 1.5rem;
+    }
+    #foot32{
+        font-size: 1rem;
+        margin-top: -2.2vw;
+        margin-left: 77vw;
+    }
+    #foot33{
+        margin-left: 77vw;
+        font-size: 1rem;
+    }
+    #foot36{
+        margin-left: 78vw;
+        margin-top: -3.6vw;
+        font-size: 0.9rem;
+    }
+    #foot42{
+        font-size: 1.6rem;
+    }
+    .face{
+        font-size: 1rem;
+        padding: 5px 9px;
+    }
+    .twit{
+        font-size: 1rem;
+        padding: 6px 7px;
+        margin: -3vw;
+    }
+    .insta{
+        font-size: 1rem;
+        padding: 6px 8px;
+    }
+    .lin{
+        font-size: 1rem;
+        padding: 6px 7px;
+        margin: -2.5vw;
+    }
+    
+
+}
+/* ============================surface duo=============================== */
+
+@media only screen and (min-width:539px) and (max-width:550px) and (orientation:portrait){
+   
+   .header{
+       height: 17vw;
+   }
+   #paira{
+       font-size: 6vw;
+   }
+   .box{
+       height: 141vw;
+   }
+   .box2{
+       font-size: 1.2rem;
+   }
+   #about{
+       font-size: 2.5rem;
+   }
+   #about1{
+       font-size: 2rem;
+   }
+   .boxl{
+       height: 168vw;
+   }
+   .boxl1{
+       width: 64vw;
+       margin-left: 13vw;
+   }
+   .boxl2{
+       font-size: 1.2rem;
+   }
+
+    .rn{
+        position: absolute;
+        margin-top: 1vw;
+        margin-left: -2vw;
+        width: 61vw;
+        font-size: 2.7rem;
+    }
+    
+    .foot{
+        height: 221vw;
+    }
+    
+    .foot1{
+        margin-top: 200vw;
+        margin-left: 28vw;
+    }
+    .foot2{
+        margin-top: -14vw;
+    }
+    #foot21{
+        font-size: 3rem;
+    }
+    #foot22{
+        font-size: 1.4rem;
+    }
+    .foot3{
+        margin-top: 124vw;
+
+    }
+    #foot31{
+        font-size: 3rem;
+    }
+    #foot32{
+        font-size: 1.4rem;
+    }
+    #foot35{
+        margin-top: -5.6vw;
+        font-size: 1.5rem;
+    }
+    #foot36{
+        margin-left: 31vw;
+        font-size: 1.5rem;
+    }
+    #foot41{
+        width: 49vw;
+        margin-left: 17vw;
+    }
+    #foot42{
+       font-size: 3rem;
     }
 }
+
+/* ===============================nest hub max=============================================== */
+@media only screen and (min-width:1279px) and (max-width:1290px) and (orientation:landscape){
+   .header{
+       height: 13vw;
+   }
+   .logo{
+       width: 14vw;
+       height: 12vw;
+   }
+   .rn{
+       position: absolute;
+       width: 33vw;
+       margin-left: 4vw;
+      font-size: 3.5rem; 
+      margin-top: 4vw;
+   }
+   .linkbar{
+       margin-left: 45vw;
+   }
+   a{
+       font-size: 1.4rem;
+   }
+   .icon{
+       margin-top: 10vw;
+       margin-left: 78vw;
+   }
+   .box{
+       height: 64vw;
+
+   }
+   .box2{
+       font-size: 1.3rem;
+   }
+   #paira{
+       font-size: 2.7rem;
+   }
+   .boxl{
+       height: 64vw;
+       margin-top: -64vw
+   }
+   .boxl1{
+       margin-top: 1vw;
+       width: 19vw;
+
+   }
+   .boxl2{
+       font-size: 1.3rem;
+   }
+   #about{
+       font-size: 3rem;
+   }
+   .foot2{
+       margin-left: 2vw;
+   }
+   .foot3{
+       margin-left: -5vw;
+   }
+   #foot41{
+       margin-left: 3vw;
+   }
+   
+}
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width:1360px) and (max-width:1370px) and (orientation:landscape) {
   .box{
       height: 49vw;
