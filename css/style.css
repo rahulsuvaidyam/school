@@ -28,7 +28,7 @@
 .icon{
     position: absolute;
     margin-left: 76vw;
-    margin-top: 1.5vw;
+    margin-top: 6.5vw;
 }
 .for{
     font-size: 1.8rem;
@@ -51,6 +51,7 @@ a{
     border: 1px solid black;
     padding: 5px 13px;
     border-radius: 5vw;
+    margin-left: 2vw;
 }
 .twit{
     font-size: 2rem;
@@ -59,6 +60,7 @@ a{
     border: 1px solid black;
     padding: 6px 8px;
     border-radius: 5vw;
+    margin-left: 2vw;
 }
 .insta{
     font-size: 2rem;
@@ -67,6 +69,7 @@ a{
     border: 1px solid black;
     padding: 6px 9px;
     border-radius: 5vw;
+    margin-left: 2vw;
 }
 .lin{
     font-size: 2rem;
@@ -75,6 +78,7 @@ a{
     border: 1px solid black;
     padding: 6px 9px;
     border-radius: 5vw;
+    margin-left: 2vw;
 }
 
 .text{
@@ -212,10 +216,7 @@ margin-left: 1vw;
 }
 /* ====================NAVBAR============================ */
 
-nav{
-    height: 80px;
-    width: 100%;
-}
+
 
 nav ul{
     position: absolute;
@@ -379,8 +380,41 @@ nav ul li a{
     margin-left: 40vw;
     font-size: 2.5rem;
 }
+/* ======================navbar recponcive===================== */
+@media only screen and (min-width:319px) and (max-width:850px){
+    .checkbtn{
+        display: block;
+    } 
+    ul{
+        position: absolute;
+        width: 100%;
+        height: 65vh;
+        background:black;
+        top: 80px;
+        right: 100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display:block;
+         margin: 33px 0;
+         line-height: 30px;
+    } 
+    nav ul li a{
+        font-size: 20px;
+        color:blue;
+        
+    }
+    a:hover,a.active{
+        background: none; 
+        
 
-
+    }  
+    #check:checked ~ ul{
+       right: 0;
+  
+    }
+}
 
 
 /* =======================iphone 5/se================================== */
@@ -397,14 +431,15 @@ nav ul li a{
         display:none;
     }
     .logo{
-        width: 17vw;
-        height: 14vw;
+        width: 23vw;
+        height: 23vw;
         
     }
     .rn{
-        margin-left: -4vw;
-        margin-top: 2vw;
+        margin-left: 3vw;
+        margin-top: 6vw;
         width: 76vw;
+        font-size: 1.5rem;
         position: absolute;
     }
     .name{
@@ -546,7 +581,7 @@ nav ul li a{
       
  }
  #foot36{
-     margin-left: 32vw;
+     margin-left: 38vw;
      margin-top: -12vw;
      font-size: 13px;
      color: blue;
@@ -570,21 +605,22 @@ nav ul li a{
     .face{
         font-size: 1.5rem;
         padding: 4px 10px;
+        margin-left: 14vw;
     }
     .twit{
         font-size: 1.5rem;
         padding: 4px 6px;
-        margin-left: -4vw;
+        margin-left: 6vw;
     }
     .insta{
         font-size: 1.5rem;
         padding: 4px 7px;
-        margin-left: -2vw;
+        margin-left: 6vw;
     }
     .lin{
         font-size: 1.5rem;
         padding: 4px 6.5px;
-        margin-left: -2vw;
+        margin-left: 6vw;
        
     }
     
@@ -606,7 +642,7 @@ nav ul li a{
 
 
 
-/* =======================gailexy====================================== */
+/* =======================gailexy 5s====================================== */
 
 @media only screen and  (min-width:360px) and (orientation:portrait) {
     .header{
@@ -619,42 +655,11 @@ nav ul li a{
         display:none;
     }
     .logo{
-        width: 13vw;
-        height: 12vw;
+        width: 23vw;
+        height: 21vw;
         
     }
-    .checkbtn{
-        display: block;
-    } 
-    ul{
-        position: absolute;
-        width: 100%;
-        height: 65vh;
-        background:black;
-        top: 80px;
-        right: 100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display:block;
-         margin: 33px 0;
-         line-height: 30px;
-    } 
-    nav ul li a{
-        font-size: 20px;
-        color:blue;
-        
-    }
-    a:hover,a.active{
-        background: none; 
-        
-
-    }  
-    #check:checked ~ ul{
-       right: 0;
   
-    }
     .linkabout{
         display: none;
     }
@@ -676,9 +681,9 @@ nav ul li a{
         margin-left: 32vw;
     }
     .name{
-        margin-top: 2vw;
-        margin-left: 23vw;
-        font-size: 1.4rem;
+        margin-top: 6vw;
+        margin-left: 25vw;
+        font-size: 1.8rem;
     }
     .text{
         margin-left: 89vw;
@@ -815,7 +820,7 @@ nav ul li a{
     #foot36{
         margin-top: -11.4vw;
         font-size: 1rem;
-        margin-left: 30vw;
+        margin-left: 35vw;
         position: absolute;
         color:blue;
           
@@ -934,13 +939,13 @@ nav ul li a{
         display: none;
     }
     .logo{
-        width: 15vw;
-        height: 11vw;
+        width: 21vw;
+        height: 18vw;
     }
     .name{
-        margin-top: 2vw;
-        margin-left: 23vw;
-        font-size: 1.6rem;
+        margin-top: 4vw;
+        margin-left: 26vw;
+        font-size: 2rem;
     }
     .text{
         margin-left: 89vw;
@@ -1027,6 +1032,7 @@ nav ul li a{
         position: absolute;
         display: block;
         margin-top: 231vw;
+        margin-left: 18vw;
     }
     #foot35{
            font-size: 1.5rem; 
@@ -1035,7 +1041,7 @@ nav ul li a{
     }
     #foot36{
         margin-top: -11.3vw;
-        margin-left: 34vw;
+        margin-left: 39vw;
         font-size: 1.1rem;
         color: blue;
 
@@ -1053,22 +1059,22 @@ nav ul li a{
     .face{
         font-size: 1.5rem;
         padding: 7px 13px;
-        margin-left: -1vw;
+        margin-left: 2vw;
     }
     .twit{
         font-size: 1.5rem;
         padding: 7px 9px;
-        margin-left: -2vw;
+        margin-left: 5vw;
     }
     .insta{
         font-size: 1.5rem;
         padding: 7px 10px;
-        margin-left: -2vw;
+        margin-left: 5vw;
     }
     .lin{
         font-size: 1.5rem;
         padding: 7px 9px;
-        margin-left: -2vw;
+        margin-left: 5vw;
        
     }
     
@@ -1153,12 +1159,15 @@ nav ul li a{
         height: 18vw;
     }
     .logo{
-        width: 18vw;
-        height: 16vw;
+        width: 22vw;
+        height: 18vw;
     }
     .rn{
-        font-size: 1.7rem;
+        font-size: 2rem;
         
+    }
+    .name{
+        margin-top: 4vw;
     }
     .text {
         display: block;
@@ -1244,22 +1253,22 @@ nav ul li a{
     .face{
         font-size: 1.5rem;
         padding: 7px 13px;
-        margin-left: -8vw;
+        margin-left: 2vw;
     }
     .twit{
         font-size: 1.5rem;
         padding: 7px 9px;
-        margin-left: -2vw;
+        margin-left: 5vw;
     }
     .insta{
         font-size: 1.5rem;
         padding: 7px 10px;
-        margin-left: -2vw;
+        margin-left: 5vw;
     }
     .lin{
         font-size: 1.5rem;
         padding: 7px 9px;
-        margin-left: -2vw;
+        margin-left: 5vw;
        
     }
     
