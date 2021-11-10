@@ -381,7 +381,7 @@ nav ul li a{
     font-size: 2.5rem;
 }
 /* ======================navbar recponcive===================== */
-@media only screen and (min-width:319px) and (max-width:850px){
+@media only screen and (min-width:319px) and (max-width:1025px){
     .checkbtn{
         display: block;
     } 
@@ -432,15 +432,24 @@ nav ul li a{
     }
     .logo{
         width: 23vw;
-        height: 23vw;
+        height: 19vw;
         
     }
     .rn{
         margin-left: 3vw;
-        margin-top: 6vw;
-        width: 76vw;
+        margin-top: 4vw;
+        width: 57vw;
         font-size: 1.5rem;
         position: absolute;
+    }
+    .raj{
+        position: absolute;
+        margin-top: 4vw;
+        margin-left: -10vw;
+        font-size: 2.5rem;
+    }
+    .w-100{
+        margin-top: 5vw;
     }
     .name{
         margin-top: 2vw;
@@ -656,8 +665,19 @@ nav ul li a{
     }
     .logo{
         width: 23vw;
-        height: 21vw;
+        height: 18vw;
         
+    }
+    .w-100{
+        margin-top: 6vw;
+       
+    }
+
+    .raj{
+        position: absolute;
+        font-size: 2.6rem;
+        margin-top: 5vw;
+        margin-left: -9vw;
     }
   
     .linkabout{
@@ -846,22 +866,22 @@ nav ul li a{
     .face{
         font-size: 1.5rem;
         padding: 4px 10px;
-        margin-left: -4vw;
+        margin-left: 9vw;
     }
     .twit{
         font-size: 1.5rem;
         padding: 4px 6px;
-        margin-left: -2vw;
+        margin-left: 6vw;
     }
     .insta{
         font-size: 1.5rem;
         padding: 4px 7px;
-        margin-left: -2vw;
+        margin-left: 6vw;
     }
     .lin{
         font-size: 1.5rem;
         padding: 4px 6.5px;
-        margin-left: -2vw;
+        margin-left: 6vw;
        
     }
     
@@ -943,8 +963,8 @@ nav ul li a{
         height: 18vw;
     }
     .name{
-        margin-top: 4vw;
-        margin-left: 26vw;
+        margin-top: 5vw;
+        margin-left: 22vw;
         font-size: 2rem;
     }
     .text{
@@ -1032,7 +1052,7 @@ nav ul li a{
         position: absolute;
         display: block;
         margin-top: 231vw;
-        margin-left: 18vw;
+        margin-left: 23vw;
     }
     #foot35{
            font-size: 1.5rem; 
@@ -1236,10 +1256,10 @@ nav ul li a{
     }
     .foot{
         margin-top: 569vw;
-        height: 262vw;
+        height: 252vw;
     }
     .foot1{
-        margin-top: 244vw;
+        margin-top: 232vw;
         margin-left: 18vw;
     }
     #foot35{
@@ -1286,13 +1306,25 @@ nav ul li a{
     .our{
         margin-top: 12vw;
     }
+    .w-100{
+        margin-top: 6vw;
+    }
+    .raj{
+        font-size: 2.6rem;
+        margin-top: 6vw;
+        margin-left: -9vw;
+        position: absolute;
+    }
+    nav ul{
+        height: 53vh;
+    }
     #foot35{
         font-size: 1.2rem;
         margin-top: -7.2vw;
     }
     #foot36{
         margin-top: -10.9vw;
-        margin-left: 31vw;
+        margin-left: 37vw;
         font-size: 1rem;
     }
     .face{
@@ -1318,11 +1350,24 @@ nav ul li a{
         height: 19vw;
     }
     .rn{
-        font-size: 3rem;
+        font-size: 3.5rem;
         position: absolute;
-        width: 66vw;
-        margin-top: 4vw;
-    
+        width: 57vw;
+        margin-top: 1vw;
+    }
+    .raj{
+        position: absolute;
+        margin-left: -12vw;
+        font-size: 6rem;
+    }
+    .w-100{
+        margin-top: 0;
+    }
+    nav ul{
+        margin-top: 10vw;
+    }
+    nav ul li a{
+        font-size: 45px;
     }
     .box{
         height: 177vw;
@@ -1349,6 +1394,9 @@ nav ul li a{
     }
     .boxl1{
         width: 72vw;
+    }
+    .our{
+        margin-top: 3vw;
     }
     .boxl2{
         font-size: 2rem;
@@ -1405,7 +1453,7 @@ nav ul li a{
     }
     #foot36{
         margin-top: -9vw;
-        margin-left: 38vw;
+        margin-left: 40vw;
         font-size: 2rem;
 
         
@@ -1418,22 +1466,22 @@ nav ul li a{
     .face{
         font-size: 3.5rem;
         padding: 11px 25px;
-        margin-left: -8vw;
+        margin-left: -3vw;
     }
     .twit{
         font-size: 3.5rem;
         padding: 11px 14px; 
-        margin-left: 3vw;
+        margin-left: 8vw;
     }
     .insta{
         font-size: 3.5rem;
         padding: 11px 17px;
-        margin-left: 3vw;
+        margin-left: 8vw;
     }
     .lin{
         font-size: 3.5rem;
         padding: 11px 17px;
-        margin-left: 3vw;
+        margin-left: 8vw;
        
     }
     
@@ -1449,16 +1497,23 @@ nav ul li a{
         height: 13vw;
     }
     .logo{
-        width: 14vw;
-        height: 12vw;
+        width: 22vw;
+        height: 18vw;
     }
     .rn{
 
         font-size: 5rem;
     
     }
-    .linkbar{
-        display: none;
+    .raj{
+        font-size: 6.6rem;
+    }
+    nav ul{
+        margin-top: 11vw;
+        height: 47vh;
+    }
+    nav ul li a{
+        font-size: 54px;
     }
     .icon{
         display: none;
@@ -1561,22 +1616,22 @@ nav ul li a{
     .face{
         font-size: 4.5rem;
         padding: 10px 27px;
-        margin-left: -2vw;
+        
     }
     .twit{
         font-size: 4.5rem;
         padding: 11px 14px; 
-        margin-left: 3vw;
+        margin-left: 8vw;
     }
     .insta{
         font-size: 4.5rem;
         padding: 11px 17px;
-        margin-left: 3vw;
+        margin-left: 8vw;
     }
     .lin{
         font-size: 4.5rem;
         padding: 11px 17px;
-        margin-left: 3vw;
+        margin-left: 8vw;
        
     }
     
