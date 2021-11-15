@@ -295,6 +295,7 @@ nav ul li a{
 #foot22{
     margin-left: 32vw;
     font-size: 1.5rem;
+    font-family: inherit;
 }
 .foot3{
     position: absolute;
@@ -325,21 +326,21 @@ nav ul li a{
 }
 #foot35{
     margin-left: 76.2vw;
-    margin-top: -1.8vw;
+    margin-top: -2vw;
     font-size: 1.5rem;   
 }
 #foot36{
     margin-left: 81vw;
     margin-top: -2.7vw;
     position: absolute;
-    color: blue ;
+    color: rgb(175, 138, 138) ;
       
 }
 #foot37{
     margin-left: 81vw;
     margin-top: -1.5vw;
     position: absolute;
-    color: blue ;
+    color:rgb(175, 138, 138)  ;
     font-size: 1.2rem;
       
 }
@@ -438,10 +439,10 @@ nav ul li a{
 @media only screen and (min-width:319px) and (max-width:355px) and (orientation:portrait) {
 
     .header{
-        height: 15vw;
+        height: 20vw;
     }
-    .linkbar{
-        display: none;
+    ul{
+        margin-top: -5vw;
     }
     .icon{
         display:none;
@@ -463,9 +464,6 @@ nav ul li a{
         margin-top: 4vw;
         margin-left: -10vw;
         font-size: 2.5rem;
-    }
-    .w-100{
-        margin-top: 5vw;
     }
     .name{
         margin-top: 2vw;
@@ -609,9 +607,11 @@ nav ul li a{
      margin-left: 38vw;
      margin-top: -12vw;
      font-size: 13px;
-     color: blue;
-
-
+ }
+ #foot37{
+     margin-left: 37vw;
+     margin-top: -5vw;
+     font-size: 0.9rem;
  }
     
     #foot41{
@@ -646,10 +646,9 @@ nav ul li a{
         font-size: 1.5rem;
         padding: 4px 6.5px;
         margin-left: 6vw;
-       
     }
     .sch-ab{
-        margin-top: 5vw;
+        height: 150vw;
     }
     
     .co{
@@ -657,7 +656,7 @@ nav ul li a{
         margin-left: 26vw;
     }
     .sch-co{
-        margin-top: 5vw;
+        height: 150vw;
     }
     .ab{
         margin-left: 25vw;
@@ -681,7 +680,7 @@ nav ul li a{
 
 @media only screen and  (min-width:360px) and (orientation:portrait) {
     .header{
-        height: 13vw;
+        height: 19vw;
     }
     
     .icon{
@@ -691,10 +690,6 @@ nav ul li a{
         width: 23vw;
         height: 18vw;
         
-    }
-    .w-100{
-        margin-top: 6vw;
-       
     }
     .carousel-item{
         height: 56vw;
@@ -713,7 +708,6 @@ nav ul li a{
         display: none;
     }
     .sch-ab{
-        margin-top: 6vw;
         height: 190vw;
     }
     .ab{
@@ -721,7 +715,6 @@ nav ul li a{
         margin-left: 27vw;
     }
     .sch-co{
-        margin-top: 6vw;
         height: 190vw;
     }
     .co{
@@ -871,7 +864,14 @@ nav ul li a{
         font-size: 1rem;
         margin-left: 35vw;
         position: absolute;
-        color:blue;
+        
+          
+    }
+    #foot37{
+        margin-top: -5.2vw;
+        font-size: 1rem;
+        margin-left: 35vw;
+        
           
     }
     .foot4{
@@ -979,7 +979,7 @@ nav ul li a{
 /* ====================pixel 2============================ */
 @media only screen and (min-width:361px) and (max-width:412px) and (orientation:portrait) {
     .header{
-        height: 13vw;
+        height: 19vw;
     }
     .linkbar{
         display: none;
@@ -990,6 +990,9 @@ nav ul li a{
     .logo{
         width: 21vw;
         height: 18vw;
+    }
+    ul{
+        margin-top: 0;
     }
     .name{
         margin-top: 5vw;
@@ -1081,7 +1084,7 @@ nav ul li a{
         position: absolute;
         display: block;
         margin-top: 231vw;
-        margin-left: 23vw;
+        margin-left: 19vw;
     }
     #foot34{
            margin-left: 7vw; 
@@ -1095,9 +1098,9 @@ nav ul li a{
     }
     #foot36{
         margin-top: -11.3vw;
-        margin-left: 39vw;
+        margin-left: 37vw;
         font-size: 1.1rem;
-        color: blue;
+        
 
 
     }
@@ -1105,7 +1108,7 @@ nav ul li a{
         margin-top: -5vw;
         margin-left: 35vw;
         font-size: 1.2rem;
-        color: blue;
+        
 
 
     }
@@ -1218,11 +1221,14 @@ nav ul li a{
 @media only screen and (min-width:412px) and (max-width:500vw) and (orientation:portrait){
       
     .header{
-        height: 18vw;
+        height: 19vw;
     }
     .logo{
         width: 22vw;
         height: 18vw;
+    }
+    ul{
+        margin-top: 0;
     }
     .rn{
         font-size: 2rem;
@@ -1235,9 +1241,6 @@ nav ul li a{
         display: block;
         margin-left: 87vw;
         margin-top: 5vw;
-    }
-    .linkbar{
-        display: none;
     }
     .box{
         width: 90vw;
@@ -1305,17 +1308,19 @@ nav ul li a{
         margin-left: 18vw;
     }
     #foot35{
-        margin-top: -6vw;
-        font-size: 1.8rem;
+        margin-top: -7.5vw;
+        font-size: 1.5rem;
+        width: 17vw;
     }
     #foot36{
-        margin-top: -10.2vw;
+        margin-top: -11.2vw;
         font-size: 1.1rem;
+        margin-left: 39vw;
     }
     #foot37{
-        margin-top: -5vw;
-        font-size: 1.5rem;
-        margin-left: 37vw;
+        margin-top: -5.5vw;
+        font-size: 1.1rem;
+        margin-left: 42vw;
     }
 
     .face{
@@ -1351,11 +1356,11 @@ nav ul li a{
     .boxl{
         height: 197vw;
     }
+    ul{
+        margin-top: -2vw;
+    }
     .our{
         margin-top: 12vw;
-    }
-    .w-100{
-        margin-top: 6vw;
     }
     .carousel-item{
         height: 57vw;
@@ -1369,13 +1374,17 @@ nav ul li a{
     nav ul{
         height: 53vh;
     }
+    .foot1{
+        margin-left: 23vw;
+    }
     #foot35{
         font-size: 1.2rem;
         margin-top: -7.2vw;
+        width: 15vw;
     }
     #foot36{
         margin-top: -10.9vw;
-        margin-left: 37vw;
+        margin-left: 34vw;
         font-size: 1rem;
     }
     .face{
@@ -1503,7 +1512,8 @@ nav ul li a{
     }
     #foot35{
         font-size: 3rem;
-        margin-top: -6.8vw;
+        margin-top: -8.3vw;
+        width: 20vw;
     }
     #foot36{
         margin-top: -9vw;
@@ -1555,7 +1565,7 @@ nav ul li a{
 
 @media only screen and (min-width:990px) and (max-width:1030px) and (orientation:portrait) {
     .header{
-        height: 13vw;
+        height: 19vw;
     }
     .logo{
         width: 22vw;
@@ -1660,12 +1670,12 @@ nav ul li a{
     }
     #foot35{
         font-size: 3rem;
-        margin-top: -6vw;
+        margin-top: -6.4vw;
         
     }
     #foot36{
         font-size: 2.4rem;
-        margin-top: -7vw;
+        margin-top: -7.5vw;
         margin-left: 35vw;
         
     }
@@ -1805,7 +1815,7 @@ nav ul li a{
 @media only screen and (min-width:539px) and (max-width:550px) and (orientation:portrait){
    
    .header{
-       height: 17vw;
+       height: 19vw;
    }
    #paira{
        font-size: 6vw;
@@ -1847,7 +1857,7 @@ nav ul li a{
     
     .foot1{
         margin-top: 200vw;
-        margin-left: 28vw;
+        margin-left: 25vw;
     }
     .foot2{
         margin-top: -14vw;
@@ -1876,6 +1886,11 @@ nav ul li a{
         margin-left: 34vw;
         font-size: 1.5rem;
     }
+    #foot37{
+        margin-top: -4.7vw;
+        margin-left: 35vw;
+        font-size: 1.5rem;
+    }
     #foot41{
         width: 49vw;
         margin-left: 17vw;
@@ -1891,7 +1906,7 @@ nav ul li a{
 /* ===============================nest hub max=============================================== */
 @media only screen and (min-width:1279px) and (max-width:1290px) and (orientation:landscape){
    .header{
-       height: 13vw;
+       height: 19vw;
    }
    .logo{
        width: 14vw;
