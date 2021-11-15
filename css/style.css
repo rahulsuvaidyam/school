@@ -47,7 +47,7 @@ a{
 .face{
     font-size: 2rem;
     color: white;
-    background-color: blue;
+    background-color:#393942;
     border: 1px solid black;
     padding: 5px 13px;
     border-radius: 5vw;
@@ -56,7 +56,7 @@ a{
 .twit{
     font-size: 2rem;
     color: white;
-    background-color: blue;
+    background-color:#393942;
     border: 1px solid black;
     padding: 6px 8px;
     border-radius: 5vw;
@@ -65,7 +65,7 @@ a{
 .insta{
     font-size: 2rem;
     color: white;
-    background-color: blue;
+    background-color:#393942;
     border: 1px solid black;
     padding: 6px 9px;
     border-radius: 5vw;
@@ -74,7 +74,7 @@ a{
 .lin{
     font-size: 2rem;
     color: white;
-    background-color: blue;
+    background-color:#393942;
     border: 1px solid black;
     padding: 6px 9px;
     border-radius: 5vw;
@@ -228,7 +228,7 @@ nav ul li{
     display: inline-block;
     padding: 1vw;
     line-height: 80px;
-    border-bottom: 1px solid green;
+    
   
     
     
@@ -284,16 +284,17 @@ nav ul li a{
 .foot2{
     position: absolute;
     color: white;
+    margin-left: 4vw;
     
 }
 #foot21{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 3vw;
     margin-left: 32vw;
 }
 #foot22{
     margin-left: 32vw;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 .foot3{
     position: absolute;
@@ -302,43 +303,44 @@ nav ul li a{
 #foot31{
     margin-left: 70vw;
     margin-top: 3vw;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .fa-home{
     margin-left: 73vw;
-    font-size: 3vw;
+    font-size: 3rem;
 }
 #foot32{
     margin-left: 76vw;
     margin-top: -1.6vw;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 #foot33{
     margin-left: 76vw;
     
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 #foot34{
-    margin-left: 73vw;
-    font-size: 2.5vw;   
+    margin-left: 73.5vw;
+    font-size: 2.3rem;   
 }
 #foot35{
-    margin-left: 76vw;
+    margin-left: 76.2vw;
     margin-top: -1.8vw;
-    font-size: 1.3vw;   
+    font-size: 1.5rem;   
 }
 #foot36{
-    margin-left: 78.5vw;
-    margin-top: -3vw;
+    margin-left: 81vw;
+    margin-top: -2.7vw;
     position: absolute;
     color: blue ;
       
 }
 #foot37{
-    margin-left: 35.5vw;
-    margin-top: -5vw;
+    margin-left: 81vw;
+    margin-top: -1.5vw;
     position: absolute;
     color: blue ;
+    font-size: 1.2rem;
       
 }
 .foot4{
@@ -409,6 +411,7 @@ nav ul li a{
     nav ul li{
         display:block;
          margin: 33px 0;
+         border-bottom: 1px solid green;
          line-height: 30px;
          
         
@@ -1100,7 +1103,7 @@ nav ul li a{
     }
     #foot37{
         margin-top: -5vw;
-        margin-left: 33.5vw;
+        margin-left: 35vw;
         font-size: 1.2rem;
         color: blue;
 
@@ -1303,15 +1306,16 @@ nav ul li a{
     }
     #foot35{
         margin-top: -6vw;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
     #foot36{
         margin-top: -10.2vw;
         font-size: 1.1rem;
     }
     #foot37{
-        margin-top: -4.9vw;
-        font-size: 1.1rem;
+        margin-top: -5vw;
+        font-size: 1.5rem;
+        margin-left: 37vw;
     }
 
     .face{
@@ -1499,7 +1503,7 @@ nav ul li a{
     }
     #foot35{
         font-size: 3rem;
-        margin-top: -8.5vw;
+        margin-top: -6.8vw;
     }
     #foot36{
         margin-top: -9vw;
@@ -1767,7 +1771,7 @@ nav ul li a{
         font-size: 1rem;
     }
     #foot36{
-        margin-left: 78vw;
+        margin-left: 80vw;
         margin-top: -3.6vw;
         font-size: 0.9rem;
     }
@@ -1777,11 +1781,12 @@ nav ul li a{
     .face{
         font-size: 1rem;
         padding: 5px 9px;
+        
     }
     .twit{
         font-size: 1rem;
         padding: 6px 7px;
-        margin: -3vw;
+        
     }
     .insta{
         font-size: 1rem;
@@ -1790,7 +1795,7 @@ nav ul li a{
     .lin{
         font-size: 1rem;
         padding: 6px 7px;
-        margin: -2.5vw;
+        
     }
     
 
@@ -1864,11 +1869,11 @@ nav ul li a{
         font-size: 1.4rem;
     }
     #foot35{
-        margin-top: -5.6vw;
+        margin-top: -6.6vw;
         font-size: 1.5rem;
     }
     #foot36{
-        margin-left: 31vw;
+        margin-left: 34vw;
         font-size: 1.5rem;
     }
     #foot41{
@@ -1897,9 +1902,9 @@ nav ul li a{
        width: 33vw;
        margin-left: 4vw;
       font-size: 3.5rem; 
-      margin-top: 4vw;
+      margin-top: 3vw;
    }
-   .linkbar{
+   nav ul{
        margin-left: 45vw;
    }
    a{
@@ -1937,8 +1942,37 @@ nav ul li a{
    .foot2{
        margin-left: 2vw;
    }
+   #foot21{
+       font-size: 2.5rem;
+   }
+   #foot22{
+       font-size: 1.2rem;
+   }
    .foot3{
        margin-left: -5vw;
+   }
+   #foot31{
+       font-size: 2.5rem;
+      
+   }
+   #foot32{
+       font-size: 1.2rem;
+       margin-top: -2vw;
+       margin-left: 78vw;
+   }
+   #foot33{
+       margin-left: 78vw;
+       font-size: 1.2rem;
+   }
+   #foot35{
+       margin-left: 77vw;
+       margin-top: -2.1vw;
+       font-size: 1.3rem;
+   }
+   #foot36{
+       margin-left: 82vw;
+       margin-top: -3.5vw;
+       font-size: 1.2rem;
    }
    #foot41{
        margin-left: 3vw;
