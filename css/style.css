@@ -2,46 +2,42 @@
     padding: 0%;
     margin: 0%;
 }
-.header{
-    width: 100%;
-    height: 9vw;
-    background-color: white;
-    opacity: 0.9;
-    z-index: -1;
-    
-}
 .logo{
     position: absolute;
     width: 10vw;
-    height: 8vw;
+    height: 8.5vw;
     margin-left:0.6vw;
-    margin-top: 0.5vw;
+    margin-top: -4.3vw;
+    border-radius: 18vw;
 }
-.name{
-    position: absolute;
-    font-size: 2.5rem;
-    margin-left: 11vw;
-    margin-top: 4vw;
+.rn{
+    margin-left: 12vw;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-
+.navbar{
+    height: 9vw;
+}
+.navbar-nav{
+    margin-top: -3vw;
+    margin-left: 1vw;
+}
+.nav-link{
+    margin-left: 3vw;
+    font-size: 1.2rem;
+}
 .icon{
     position: absolute;
     margin-left: 76vw;
     margin-top: 6.5vw;
 }
+a{
+    text-decoration: none;
+}
 .for{
     font-size: 1.8rem;
     margin-left: 2vw;
-}
-.rn{
-
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-a{
-    text-decoration: none;
     color: black;
-    font-weight: bold;
 }
 
 .face{
@@ -80,15 +76,6 @@ a{
     border-radius: 5vw;
     margin-left: 2vw;
 }
-
-.text{
-    position: absolute;
-    margin-left: 95vw;
-    margin-top: 3vw;
-    display: none;
-    
-}
-
 .carousel-item{
     width: 100%;
     height: 40vw;
@@ -115,6 +102,7 @@ a{
     height: 16vw;
     margin-top: 3vw;
     margin-left: 2.5vw;
+    border-radius: 0.5vw;
 }
 .box2{
 margin-top: 2vw;
@@ -135,7 +123,7 @@ margin-left: 1vw;
     margin-top: 1vw;
 }
 .boxl1{
-    margin-left: 10vw;
+    margin-left: 11vw;
     margin-top: 2vw;
     width: 15zvw;
 }
@@ -214,60 +202,6 @@ margin-left: 1vw;
     box-shadow: whitesmoke 3px 3px 3px 3px;
     margin-left: 3vw;
 }
-/* ====================NAVBAR============================ */
-
-
-
-nav ul{
-    position: absolute;
-    margin-left: 30VW;
-     float: right;
-    
-}
-nav ul li{
-    display: inline-block;
-    padding: 1vw;
-    line-height: 80px;
-    
-  
-    
-    
-}
-nav ul li a{
-    text-decoration: none;
-    list-style: none;
-    font-size: 17px;
-    padding: 7px 13px;
-    text-transform: uppercase;
-
-}
-
-.checkbtn{
-    font-size: 30px;
-    color: black;
-    float: right;
-    line-height: 80px;
-    margin-right: 10px;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
-
-
-.main1:hover{
-    
-    border: 3px solid rgb(179, 74, 74);
-}
-
-.sec1:hover{
-    border: 3px solid rgb(179, 74, 74) ;
-}
-.manu{
-    width: 100%;
-    height: 4vw;
-}
 .foot{
     position: absolute;
     margin-top: 50vw;
@@ -331,19 +265,13 @@ nav ul li a{
 }
 #foot36{
     margin-left: 81vw;
-    margin-top: -2.7vw;
+    margin-top: -3vw;
     position: absolute;
+    font-size: 1.2rem;
     color: rgb(175, 138, 138) ;
       
 }
-#foot37{
-    margin-left: 81vw;
-    margin-top: -1.5vw;
-    position: absolute;
-    color:rgb(175, 138, 138)  ;
-    font-size: 1.2rem;
-      
-}
+
 .foot4{
     position: absolute;
     margin-top: 3vw;
@@ -369,68 +297,67 @@ nav ul li a{
 
 .sch-ab{
     width: 100%;
-    height: 60vw;
-    background-color: bisque;
+    height: 40vw;
 }
 .ab{
-    position: absolute;
-    margin-top: 4vw;
     margin-left: 40vw;
     font-size: 2.5rem;
 }
+.ab1{
+    margin-left: 15vw;
+    width: 70vw;
+    height: 30vw;
+    border: 2px solid black;
+}
+
+
 
 
 /* ===============contact================================================== */
 
 .sch-co{
-
     width: 100%;
     height: 60vw;
     background-color: bisque;
+
 }
 .co{
-    position: absolute;
-    margin-top: 4vw;
     margin-left: 40vw;
     font-size: 2.5rem;
 }
-/* ======================navbar recponcive===================== */
-@media only screen and (min-width:319px) and (max-width:1025px){
-    .checkbtn{
-        display: block;
-    } 
-    ul{
-        position: absolute;
-        width: 100%;
-        height: 65vh;
-        background:black;
-        top: 80px;
-        right: 100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display:block;
-         margin: 33px 0;
-         border-bottom: 1px solid green;
-         line-height: 30px;
-         
-        
-    } 
-    nav ul li a{
-        font-size: 20px;
-        color:blue;
-        
-    }
-    a:hover,a.active{
-        background: none; 
-        
-
-    }  
-    #check:checked ~ ul{
-       right: 0;
-  
-    }
+/* ============================gallery==================================== */
+.gallery1{
+    font-size: 2rem;
+    margin-left: 5vw;
+}
+/* ============================admission==================================== */
+.admi1{
+    font-size: 2rem;
+    margin-left: 5vw;
+    font-style: italic;
+}
+.admi2{
+    font-size: 2rem;
+    margin-left: 5vw;
+    color: rgb(86, 86, 182);
+}
+.admi3{
+    font-size: 1.5rem;
+    margin-left: 5vw;
+    color: rgb(109, 48, 48);
+}
+.admi4{
+    font-size: 1.2rem;
+    margin-left: 5vw;
+    color: rgb(63, 134, 63);
+}
+.admi5{
+    margin-left: 5vw;
+    
+}
+.admi6{
+    margin-left: 10vw;
+    
 }
 
 
@@ -438,44 +365,35 @@ nav ul li a{
 
 @media only screen and (min-width:319px) and (max-width:355px) and (orientation:portrait) {
 
-    .header{
-        height: 20vw;
-    }
-    ul{
-        margin-top: -5vw;
-    }
+   .navbar{
+       height: 21vw;
+   }
+   .rn{
+       margin-left: 18vw;
+       font-size: 1.2rem;
+   }
+   
+ .navbar-nav{
+    width: 100vw;
+    height: 80vw;
+    margin-top: 5vw;
+    margin-left: -3.3vw;
+    background-color: aquamarine;
+}
+.nav-link{
+    text-align: center;
+}
     .icon{
         display:none;
     }
     .logo{
+        margin-top: -9vw;
+        margin-left: -2vw;
         width: 23vw;
-        height: 19vw;
+        height: 18vw;
         
     }
-    .rn{
-        margin-left: 3vw;
-        margin-top: 4vw;
-        width: 57vw;
-        font-size: 1.5rem;
-        position: absolute;
-    }
-    .raj{
-        position: absolute;
-        margin-top: 4vw;
-        margin-left: -10vw;
-        font-size: 2.5rem;
-    }
-    .name{
-        margin-top: 2vw;
-        margin-left: 23vw;
-        font-size: 1.4rem;
-    }
-    .text{
-        margin-left: 87vw;
-        margin-top: 3vw;
-        display: block;
-        
-    }
+    
     .box{
         width: 90vw;
         height: 211vw;
@@ -509,7 +427,7 @@ nav ul li a{
         margin-top: 3vw;
     }
     .know{
-        margin-left: 27vw;
+        margin-left: 33vw;
     }
     .our{
         margin-top: 14vw;
@@ -548,7 +466,7 @@ nav ul li a{
     }
     .foot{
         height: 276vw;
-        margin-top: 1002vw;
+        margin-top: 620vw;
     }
     
     .foot1{
@@ -607,13 +525,7 @@ nav ul li a{
      margin-left: 38vw;
      margin-top: -12vw;
      font-size: 13px;
- }
- #foot37{
-     margin-left: 37vw;
-     margin-top: -5vw;
-     font-size: 0.9rem;
- }
-    
+ }    
     #foot41{
         width: 60vw;
         border-radius: 35vw;
@@ -648,6 +560,7 @@ nav ul li a{
         margin-left: 6vw;
     }
     .sch-ab{
+        margin-top: -8vw;
         height: 150vw;
     }
     
@@ -679,33 +592,33 @@ nav ul li a{
 /* =======================gailexy 5s====================================== */
 
 @media only screen and  (min-width:360px) and (orientation:portrait) {
-    .header{
+    
+    .navbar{
         height: 19vw;
     }
-    
+    .navbar-nav{
+        width: 100vw;
+        height: 80vw;
+        margin-top: 5vw;
+        margin-left: -3.3vw;
+        background-color: aquamarine;
+    }
+    .nav-link{
+        text-align: center;
+    }
     .icon{
         display:none;
     }
     .logo{
+        margin-top: -9vw;
+        margin-left: -2vw;
         width: 23vw;
         height: 18vw;
         
     }
-    .carousel-item{
-        height: 56vw;
-    }
-    ul{
-        margin-top: -3vw;
-    }
-    .raj{
-        position: absolute;
-        font-size: 2.6rem;
-        margin-top: 5vw;
-        margin-left: -9vw;
-    }
-  
-    .linkabout{
-        display: none;
+    .rn{
+        margin-left: 18vw;
+        font-size: 1.5rem;
     }
     .sch-ab{
         height: 190vw;
@@ -718,20 +631,8 @@ nav ul li a{
         height: 190vw;
     }
     .co{
-        position: absolute;
         font-size: 1.5rem;
         margin-left: 32vw;
-    }
-    .name{
-        margin-top: 6vw;
-        margin-left: 25vw;
-        font-size: 1.8rem;
-    }
-    .text{
-        margin-left: 89vw;
-        margin-top: 3vw;
-        display: block;
-        
     }
     .box{
         width: 90vw;
@@ -766,7 +667,7 @@ nav ul li a{
         margin-top: 3vw;
     }
     .know{
-        margin-left: 27vw;
+        margin-left: 34vw;
     }
     .our1{
         margin-top: 224vw;
@@ -802,7 +703,7 @@ nav ul li a{
     }
     .foot{
         height: 258vw;
-        margin-top: 1002vw;
+        margin-top: 620vw;
     }
     .foot1{
         position: absolute;
@@ -867,13 +768,6 @@ nav ul li a{
         
           
     }
-    #foot37{
-        margin-top: -5.2vw;
-        font-size: 1rem;
-        margin-left: 35vw;
-        
-          
-    }
     .foot4{
         position: absolute;
         margin-top: 3vw;
@@ -889,8 +783,6 @@ nav ul li a{
         font-size: 2rem;
         margin-left: -1vw;
         margin-top: 2vw;
-       
-        
     }
     .face{
         font-size: 1.5rem;
@@ -916,27 +808,13 @@ nav ul li a{
     
 }
 @media only screen and  (max-width:640px) and (orientation:landscape) {
-    .header{
-        height: 13vw;
-    }
-    
+
     .icon{
         display:none;
     }
     .logo{
         width: 13vw;
         height: 11vw;
-    }
-    .name{
-        
-        margin-left: 15vw;
-    }
-    .rn{
-        font-size: 1rem;
-    }
-    a{
-        margin: -1vw;
-        font-size: 0.7rem;
     }
     .our1{
         margin-left: 36vw;
@@ -978,12 +856,6 @@ nav ul li a{
 
 /* ====================pixel 2============================ */
 @media only screen and (min-width:361px) and (max-width:412px) and (orientation:portrait) {
-    .header{
-        height: 19vw;
-    }
-    .linkbar{
-        display: none;
-    }
     .icon{
         display: none;
     }
@@ -991,20 +863,7 @@ nav ul li a{
         width: 21vw;
         height: 18vw;
     }
-    ul{
-        margin-top: 0;
-    }
-    .name{
-        margin-top: 5vw;
-        margin-left: 22vw;
-        font-size: 2rem;
-    }
-    .text{
-        margin-left: 89vw;
-        margin-top: 3vw;
-        display: block;
-        
-    }
+    
     .box{
         width: 90vw;
         height: 148vw;
@@ -1038,7 +897,7 @@ nav ul li a{
         margin-top: 3vw;
     }
     .know{
-        margin-left: 27vw;
+        margin-left: 35vw;
     }
     .our{
         margin-top: 17vw;
@@ -1078,7 +937,7 @@ nav ul li a{
     }
     .foot{
         height: 252vw;
-        margin-top: 1002vw;
+        margin-top: 620vw;
     }
     .foot1{
         position: absolute;
@@ -1100,14 +959,6 @@ nav ul li a{
         margin-top: -11.3vw;
         margin-left: 37vw;
         font-size: 1.1rem;
-        
-
-
-    }
-    #foot37{
-        margin-top: -5vw;
-        margin-left: 35vw;
-        font-size: 1.2rem;
         
 
 
@@ -1145,39 +996,13 @@ nav ul li a{
     
 }
 @media only screen and (min-width:731px) and (max-width:760px) and (orientation:landscape) {
-    .header{
-        height: 13vw;
-    }
-    .linkbar{
-        margin-left: 39vw;
-        margin-top: 1vw;
-    }
+
     .icon{
         display: none;
     }
     .logo{
         width: 15vw;
         height: 11vw;
-    }
-    .name{
-        margin-top: 2vw;
-        margin-left: 23vw;
-    }
-    .text{
-        margin-left: 91vw;
-        margin-top: 3.5vw;
-        display: none;
-        
-    }
-    .rn{
-        font-size: 2rem;
-        margin-left: -6vw;
-        
-    }
-    
-    a{
-        margin: -1vw;
-        font-size: 0.9rem;
     }
     .box{
         width: 43vw;
@@ -1219,28 +1044,10 @@ nav ul li a{
 /* ==================iphone 6/7/8 plus============================================= */
 
 @media only screen and (min-width:412px) and (max-width:500vw) and (orientation:portrait){
-      
-    .header{
-        height: 19vw;
-    }
+   
     .logo{
         width: 22vw;
         height: 18vw;
-    }
-    ul{
-        margin-top: 0;
-    }
-    .rn{
-        font-size: 2rem;
-        
-    }
-    .name{
-        margin-top: 4vw;
-    }
-    .text {
-        display: block;
-        margin-left: 87vw;
-        margin-top: 5vw;
     }
     .box{
         width: 90vw;
@@ -1268,7 +1075,7 @@ nav ul li a{
         font-size: 1.5rem;
     }
     .know{
-        margin-left: 30vw;
+        margin-left: 37vw;
     }
     .icon{
         display: none;
@@ -1300,7 +1107,7 @@ nav ul li a{
         height: 46vw;
     }
     .foot{
-        margin-top: 569vw;
+        margin-top: 325vw;
         height: 252vw;
     }
     .foot1{
@@ -1316,11 +1123,6 @@ nav ul li a{
         margin-top: -11.2vw;
         font-size: 1.1rem;
         margin-left: 39vw;
-    }
-    #foot37{
-        margin-top: -5.5vw;
-        font-size: 1.1rem;
-        margin-left: 42vw;
     }
 
     .face{
@@ -1356,23 +1158,8 @@ nav ul li a{
     .boxl{
         height: 197vw;
     }
-    ul{
-        margin-top: -2vw;
-    }
     .our{
         margin-top: 12vw;
-    }
-    .carousel-item{
-        height: 57vw;
-    }
-    .raj{
-        font-size: 2.6rem;
-        margin-top: 6vw;
-        margin-left: -9vw;
-        position: absolute;
-    }
-    nav ul{
-        height: 53vh;
     }
     .foot1{
         margin-left: 23vw;
@@ -1391,9 +1178,6 @@ nav ul li a{
         margin-left: -5vw;
 
     }
-    .text{
-        margin-left: 88vw;
-    }
     
    
 }
@@ -1402,33 +1186,29 @@ nav ul li a{
 /* ===========================ipad======================================== */
 
 @media only screen and (min-width:765px) and (max-width:770px) and (orientation:portrait){
-    .header{
-        height: 20vw;
+  
+    .navbar{
+        height: 22vw;
+    }
+    .navbar-nav{
+        margin-left: -1.3vw;
+    }
+    .nav-link{
+        font-size: 3.5rem;
     }
     .logo{
+        margin-top: -10vw;
+        margin-left: 0.6vw;
         width: 21vw;
         height: 19vw;
     }
     .rn{
         font-size: 3.5rem;
-        position: absolute;
-        width: 57vw;
-        margin-top: 1vw;
     }
-    .raj{
-        position: absolute;
-        margin-left: -12vw;
-        font-size: 6rem;
-    }
-    .w-100{
-        margin-top: 0;
-    }
-    nav ul{
-        margin-top: 10vw;
-    }
-    nav ul li a{
-        font-size: 45px;
-    }
+   .navbar-toggler-icon{
+       width: 9.5vw;
+       height: 9.5vw;
+   }
     .box{
         height: 177vw;
     }
@@ -1471,20 +1251,15 @@ nav ul li a{
     .box-img{
         width: 88vw;
     }
-    .text{
-        margin-left: 85vw;
-    }
     .ab{
         font-size: 3.5rem;
         margin-left: 23vw;
-    }
-    .sch-co{
-        margin-top: 0vw;
     }
     .co{
         font-size: 2.5rem;
     }
     .foot{
+        margin-top: 520vw;
         height: 253vw;
     }
     .foot1{
@@ -1517,13 +1292,6 @@ nav ul li a{
     }
     #foot36{
         margin-top: -9vw;
-        margin-left: 40vw;
-        font-size: 2rem;
-
-        
-    }
-    #foot37{
-        margin-top: -6vw;
         margin-left: 40vw;
         font-size: 2rem;
 
@@ -1564,35 +1332,19 @@ nav ul li a{
 
 
 @media only screen and (min-width:990px) and (max-width:1030px) and (orientation:portrait) {
-    .header{
-        height: 19vw;
+   
+    .navbar-nav{
+        height: 6vw;
+        margin-top: 25vw;
+        margin-left: -26.3vw;
+
     }
     .logo{
         width: 22vw;
         height: 18vw;
     }
-    .rn{
-
-        font-size: 5rem;
-    
-    }
-    .raj{
-        font-size: 6.6rem;
-    }
-    nav ul{
-        margin-top: 11vw;
-        height: 47vh;
-    }
-    nav ul li a{
-        font-size: 54px;
-    }
     .icon{
         display: none;
-    }
-    .text{
-        display: block;
-        margin-top: 3vw;
-        margin-left: 89vw;
     }
     .box{
         
@@ -1679,12 +1431,6 @@ nav ul li a{
         margin-left: 35vw;
         
     }
-    #foot37{
-        font-size: 2.9rem;
-        margin-top: -5vw;
-        margin-left: 36vw;
-        
-    }
     #foot42{
         font-size: 5rem;
         margin-left: 3vw;
@@ -1716,25 +1462,9 @@ nav ul li a{
 /* ==================================nest hub======================================= */
 @media only screen and (min-width:1023px) and (max-width:1040px) and (orientation:landscape){
   
-    .header{
-        height: 11vw;
-    }
     .logo{
         width: 11vw;
         height: 10vw;
-    }
-    .rn{
-        position: absolute;
-        width: 48vw;
-        margin-top: -0.5vw;
-        margin-left: 3vw;
-        font-size: 4rem;
-    }
-    ul{
-        margin-top: 3vw;
-    }
-    .linkbar{
-        margin-left: 38vw;
     }
     .icon{
         margin-top: 8vw;
@@ -1814,9 +1544,6 @@ nav ul li a{
 
 @media only screen and (min-width:539px) and (max-width:550px) and (orientation:portrait){
    
-   .header{
-       height: 19vw;
-   }
    #paira{
        font-size: 6vw;
    }
@@ -1843,14 +1570,6 @@ nav ul li a{
        font-size: 1.2rem;
    }
 
-    .rn{
-        position: absolute;
-        margin-top: 1vw;
-        margin-left: -2vw;
-        width: 61vw;
-        font-size: 2.7rem;
-    }
-    
     .foot{
         height: 221vw;
     }
@@ -1886,11 +1605,6 @@ nav ul li a{
         margin-left: 34vw;
         font-size: 1.5rem;
     }
-    #foot37{
-        margin-top: -4.7vw;
-        margin-left: 35vw;
-        font-size: 1.5rem;
-    }
     #foot41{
         width: 49vw;
         margin-left: 17vw;
@@ -1898,32 +1612,15 @@ nav ul li a{
     #foot42{
        font-size: 3rem;
     }
-    .sch-co{
-        margin-top: 2vw;
-    }
+
 }
 
 /* ===============================nest hub max=============================================== */
 @media only screen and (min-width:1279px) and (max-width:1290px) and (orientation:landscape){
-   .header{
-       height: 19vw;
-   }
+ 
    .logo{
        width: 14vw;
        height: 12vw;
-   }
-   .rn{
-       position: absolute;
-       width: 33vw;
-       margin-left: 4vw;
-      font-size: 3.5rem; 
-      margin-top: 3vw;
-   }
-   nav ul{
-       margin-left: 45vw;
-   }
-   a{
-       font-size: 1.4rem;
    }
    .icon{
        margin-top: 10vw;
@@ -1995,15 +1692,6 @@ nav ul li a{
    
 }
 
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width:1360px) and (max-width:1370px) and (orientation:landscape) {
   .box{
       height: 49vw;
@@ -2023,23 +1711,12 @@ nav ul li a{
     .icon{
         display: none;
     }
-    .header{
-        height: 11vw;
-    }
+    
     .logo{
         width: 11vw;
         height: 9vw;
     }
-    a{
-        font-size: 0.8rem;
-    }
-    .rn{
-        position: absolute;
-        margin-left: 2vw;
-        font-size: 1.5rem;
-        width: 62vw;
-        margin-top: 3vw;
-    }
+  
     .box{
         width: 43vw;
         height: 86vw;
@@ -2062,29 +1739,16 @@ nav ul li a{
 }
 
 @media only screen and (min-width:660px) and (max-width:729px) and (orientation:landscape){
-  .header{
-      height: 11vw;
-  }
+  
   .logo{
       width: 12vw;
       height: 10vw;
   }
-  .rn{
-      font-size: 2rem;
-      margin-left: 3vw;
-  }
-  a{
-      font-size: 0.8rem;
-  }
+
   .icon{
       display: none;
   }
-  ul{
-      margin-left: 11vw;
-  }
-  li{
-      margin: -2vw;
-  }
+ 
   .box{
       height: 109vw;
   }
@@ -2111,27 +1775,14 @@ nav ul li a{
 }
 
 @media only screen and (min-width:761px) and (max-width:797px) and (orientation:landscape){
-    .header{
-        height: 11vw;
-    }
+ 
     .logo{
         width: 12vw;
         height: 10vw;
     }
-    .rn{
-        font-size: 2rem;
-        margin-left: 3vw;
-    }
-    a{
-        font-size: 1rem;
-    }
+  
     .icon{
         display: none;
     }
-    ul{
-        margin-left: 11vw;
-    }
-    li{
-        margin: -2vw;
-    } 
+ 
 }
