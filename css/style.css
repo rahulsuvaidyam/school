@@ -363,7 +363,7 @@ margin-left: 1vw;
 
 /* =======================iphone 5/se================================== */
 
-@media only screen and (min-width:319px) and (max-width:355px) and (orientation:portrait) {
+@media only screen and (min-width:300px) and (max-width:320px) and (orientation:portrait) {
 
    .navbar{
        height: 21vw;
@@ -572,23 +572,11 @@ margin-left: 1vw;
         margin-left: 25vw;
         font-size: 1.4rem   ;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
+} 
 
 /* =======================gailexy 5s====================================== */
 
-@media only screen and  (min-width:360px) and (orientation:portrait) {
+@media only screen and  (min-width:325px) and (max-width:364px) and (orientation:portrait) {
     
     .navbar{
         height: 19vw;
@@ -800,415 +788,605 @@ margin-left: 1vw;
        
     }
     
-}
-@media only screen and  (max-width:640px) and (orientation:landscape) {
-
-    .icon{
-        display:none;
-    }
-    .logo{
-        width: 13vw;
-        height: 11vw;
-    }
-    .our1{
-        margin-left: 36vw;
-        font-size: 1.3rem;
-    }
-    .box{
-        width: 43vw;
-        height: 111vw;
-        border-radius: 2vw;
-
-    }
-    #paira{
-        font-size: 1rem;
-    }
-    #box1{
-        width: 37vw;
-        height: 18vw;
-    }
-    .boxl{
-        width: 43vw;
-        height: 111vw;
-        margin-top: -111vw;
-        border-radius: 2vw;
-
-    }
-    #about{
-        font-size: 1rem;
-    }
-    .boxl1{
-        width: 20vw;
-    }
-    .ab{
-        font-size: 1.5rem;
-    }
-}
-
-
-
-
-/* ====================pixel 2============================ */
-@media only screen and (min-width:361px) and (max-width:412px) and (orientation:portrait) {
-    .navbar-nav{
-        margin-top: 2vw;
-        margin-left: -3vw;
-    }
-    .rn{
-        margin-left: -3vw;
-        font-size: 2.5rem;
-    }
-    .icon{
-        display: none;
-    }
-    
-    .box{
-        width: 90vw;
-        height: 148vw;
-        border-radius: 2vw;
-    }
-    #paira{
-        font-size: 5vw;
-    }
-    #box1{
-        width: 84vw;
-        height: 38vw;
-        border-radius: 1vw;
-    }
-    .boxl{
-        width: 90vw;
-        height: 181vw;
-        margin-top: 5vw;
-        border-radius: 2vw;
-    }
-    .boxl1{
-        width: 74vw;
-    }
-    .box12{
-        margin-top: 5vw;
-    }
-    #about{
-        font-size: 1.5rem;
-    }
-    #about1{
-        font-size: 1rem;
-        margin-top: 3vw;
-    }
-    .know{
-        margin-left: 35vw;
-    }
-    .our{
-        margin-top: 17vw;
-    }
-    .our1{
-        margin-top: 191vw;
-        margin-left: 28vw;
-        font-size: 1.5rem;
-
-    }
-    .main{
-        display: block;
-        margin-top: 195vw;
-    }
-    .main1{
-        width: 90vw;
-        height: 90vw;
-        border-radius: 4vw;
-        margin-top: 8vw;
-    }
-    .box-img{
-        width: 87vw;
-        height: 69vw;
-        margin-top: 0.5vw;
-        margin-left: 0.5vw;
-        border-radius: 3vw;
-    }
-    .sec{
-        display: block;
-        margin-top: 586vw;
-    }
-    .sec1{
-        width: 90vw;
-        height: 90vw;
-        border-radius: 4vw;
-        margin-top: 8vw;
-    }
-    .foot{
-        height: 252vw;
-        margin-top: 620vw;
-    }
-    .foot1{
-        position: absolute;
-        display: block;
-        margin-top: 231vw;
-        margin-left: 19vw;
-    }
-    #foot34{
-           margin-left: 7vw; 
-         
-    }
-    #foot35{
-           font-size: 1.5rem; 
-           margin-top: -7.2vw; 
-           margin-left: 18vw; 
-         
-    }
-    #foot36{
-        margin-top: -11.3vw;
-        margin-left: 37vw;
-        font-size: 1.1rem;
-        
-
-
-    }
-
-    .ab{
-        font-size: 1.5rem;
-        margin-left: 28vw;
-    }
-    .co{
-        font-size: 1.5rem;
-        margin-left: 32vw;
-    }
-    .face{
-        font-size: 1.5rem;
-        padding: 7px 13px;
-        margin-left: 2vw;
-    }
-    .twit{
-        font-size: 1.5rem;
-        padding: 7px 9px;
-        margin-left: 5vw;
-    }
-    .insta{
-        font-size: 1.5rem;
-        padding: 7px 10px;
-        margin-left: 5vw;
-    }
-    .lin{
-        font-size: 1.5rem;
-        padding: 7px 9px;
-        margin-left: 5vw;
-       
-    }
-    
-}
-@media only screen and (min-width:731px) and (max-width:760px) and (orientation:landscape) {
-
-    .icon{
-        display: none;
-    }
-    .logo{
-        width: 15vw;
-        height: 11vw;
-    }
-    .box{
-        width: 43vw;
-        height: 94vw;border-radius: 1vw;
-
-    }
-    .our1{
-        margin-top: 2vw;
-        margin-left: 39vw;
-        font-size: 1.3rem;
-    }
-    #paira{
-        font-size: 1rem;
-    }
-    #box1{
-        width: 37vw;
-        height: 18vw;
-    }
-    .boxl{
-        width: 43vw;
-        height: 94vw;
-        margin-top: -94vw;
-        border-radius: 1vw;
-
-    }
-    #about{
-        font-size: 1rem;
-    }
-    .boxl1{
-        width: 20vw;
-    }
-    .ab{
-        font-size: 1.5rem;
-    }
-    
-}
+} 
 
 
 /* ==================iphone 6/7/8 plus============================================= */
 
-@media only screen and (min-width:412px) and (max-width:500vw) and (orientation:portrait){
-   .rn{
-       margin-left: -3vw;
-       font-size: 2.5rem;
-   }
-    .box{
-        width: 90vw;
-        height: 156vw;
-        margin-top: 8vw;
-    }
-    #box1{
-        width: 84vw;
-        height: 46vw;
-    }
-    .boxl{
-        margin-top: 4vw;
-        width: 90vw;
-        height: 177vw;
-    }
-    .boxl1{
-        width: 69vw;
-    }
-    .our{
-        margin-top: 190vw;
-    }
-    .our1{
-        margin-left: 30vw;
-        margin-top: 1vw;
-        font-size: 1.5rem;
-    }
-    .know{
-        margin-left: 37vw;
-    }
-    .icon{
-        display: none;
-    }
-    .main{
-        display: block;
-        margin-top: 9vw;
-    }
-    .main1{
-        width: 89vw;
-        height: 70vw;
-        margin-top: 7vw;
-    }
-    .ab{
-        font-size: 2rem;
-        margin-left: 20vw;
-    }
-    .sec{
-        display: block;
-        margin-top: 317vw;
-    }
-    .sec1{
-        width: 89vw;
-        height: 70vw;
-        margin-top: 7vw;
-    }
-    .box-img{
-        width: 87vw;
-        height: 46vw;
-    }
-    .foot{
-        margin-top: 325vw;
-        height: 252vw;
-    }
-    .foot1{
-        margin-top: 232vw;
-        margin-left: 18vw;
-    }
-    #foot35{
-        margin-top: -7.5vw;
-        font-size: 1.5rem;
-        width: 17vw;
-    }
-    #foot36{
-        margin-top: -11.2vw;
-        font-size: 1.1rem;
-        margin-left: 39vw;
-    }
-
-    .face{
-        font-size: 1.5rem;
-        padding: 7px 13px;
-        margin-left: 2vw;
-    }
-    .twit{
-        font-size: 1.5rem;
-        padding: 7px 9px;
-        margin-left: 5vw;
-    }
-    .insta{
-        font-size: 1.5rem;
-        padding: 7px 10px;
-        margin-left: 5vw;
-    }
-    .lin{
-        font-size: 1.5rem;
-        padding: 7px 9px;
-        margin-left: 5vw;
-       
-    }
-    
-}
-
-
-/* =======================iphone X========================================== */
-@media only screen and (min-width:374px) and (max-width:380px) and (orientation:portrait){
-    .navbar-nav{
-        margin-top: 3vw;
-    }
-    .rn{
-        margin-left: -3vw;
-        font-size: 2.2rem;
-    }
-    .box{
-        height: 174vw;
-    }
-    .boxl{
-        height: 197vw;
-    }
-    .our{
-        margin-top: 12vw;
-    }
-    .foot1{
-        margin-left: 23vw;
-    }
-    #foot35{
-        font-size: 1.2rem;
-        margin-top: -7.2vw;
-        width: 15vw;
-    }
-    #foot36{
-        margin-top: -10.9vw;
-        margin-left: 34vw;
-        font-size: 1rem;
-    }
-    .face{
-        margin-left: -5vw;
-
-    }
-    
-   
-}
-
-
-/* ===========================ipad======================================== */
-
-@media only screen and (min-width:765px) and (max-width:770px) and (orientation:portrait){
-  
+@media only screen and (min-width:365px) and (max-width:375vw) and (orientation:portrait){
     .navbar{
         height: 22vw;
     }
     .navbar-nav{
         margin-left: -1.3vw;
+        background-color: aliceblue;
     }
     .nav-link{
-        font-size: 3.5rem;
+        font-size: 1.7rem;
+        text-align: center;
+        border-bottom: 1px solid black;
     }
     .rn{
-        font-size: 4.5rem;
+        font-size: 2rem;
+        margin-left: -3vw;
+    }
+    .logo{
+        display: none;
+    }
+    .icon{
+        display: none;
     }
    .navbar-toggler-icon{
        width: 9.5vw;
        height: 9.5vw;
    }
     .box{
-        height: 177vw;
+        width: 90vw;
+        height: 193vw;
+    }
+    #box1{
+        width: 84vw;
+        height: 36vw;
+        border: 2px solid black;
+    }
+    #paira{
+        font-size: 7vw;
+    }
+    .box2{
+        font-size: 1.2rem
+    }
+    .know{
+        margin-left: 32vw;
+            font-size: 1.2rem;
+            margin-top: 7vw;
+    }
+    #about{
+        font-size: 2rem;
+    }
+    #about1{
+        font-size: 1.2rem;
+    }
+    .boxl{
+        width: 90vw;
+        height: 175vw;
+        margin-top: 8vw;
+    }
+    .boxl1{
+        width: 35vw;
+        margin-left: 27vw;
+    }
+    .our{
+        margin-top: -8vw;
+    }
+    .boxl2{
+        font-size: 1.2rem;
+    }
+    .our1{
+        font-size: 1.5rem;
+        margin-top: 200vw;
+        margin-left: 26vw;
+    }
+    .main{
+        margin-top: 207vw;
+        display: block;
+    }
+    .main1{
+        width: 87vw;
+        height: 81vw;
+        margin-top: 7vw;
+    }
+    .box-img{
+        width: 86vw;
+        height: 55vw;
+    }
+    .ab{
+        font-size: 3.5rem;
+        margin-left: 23vw;
+    }
+    .co{
+        font-size: 2.5rem;
+    }
+    .foot{
+        margin-top: 520vw;
+        height: 226vw;
+    }
+    .foot1{
+        margin-top: 210vw;
+        margin-left: 16vw;
+    }
+    #foot21{
+        font-size: 2rem;
+        margin-left: 4vw;
+        margin-top: 68vw;
+    }
+    #foot22{
+        font-size: 1.1rem;
+        margin-left: 4vw;
+    }
+    #foot31{
+        font-size: 2rem;
+        margin-left: 8vw;
+        margin-top: 126vw;
+    }
+    .fa-home{
+        margin-left: 8vw;
+        font-size: 3.5rem;
+    }
+    #foot32{
+        font-size: 1.5rem;
+        margin-left: 23vw;
+        margin-top: -8vw;
+        
+    }
+    #foot33{
+        font-size: 1.5rem;
+        margin-left: 23vw;
+        
+    }
+    #foot34{
+        font-size: 2.5rem;
+        margin-left: 8vw;
+        
+    }
+    #foot35{
+        font-size: 1.5rem;
+        margin-top: -7.5vw;
+        width: 20vw;
+        margin-left: 18vw;
+    }
+    #foot36{
+        margin-top: -11.2vw;
+        margin-left: 36vw;
+        font-size: 1.2rem;
+
+        
+    }
+    #foot41{
+        width: 51vw;
+        margin-left: 14vw;
+        border-radius: 26vw;
+        
+    }
+    #foot42{
+        font-size: 2.1rem;
+        margin-left: 1vw;
+        
+    }
+    .face{
+        font-size: 2rem;
+        padding: 6px 14px;
+        margin-left: -3vw;
+    }
+    .twit{
+        font-size: 2rem;
+        padding: 6px 9px; 
+        margin-left: 8vw;
+    }
+    .insta{
+        font-size: 2rem;
+        padding: 7px 10px;
+        margin-left: 8vw;
+    }
+    .lin{
+        font-size: 2rem;
+        padding: 7px 11px;
+        margin-left: 8vw;
+       
+    }
+    
+}
+
+
+
+/* ====================pixel 2============================ */
+@media only screen and (min-width:409px) and (max-width:411vw) and (orientation:portrait){
+.navbar{
+    height: 19vw;
+}
+.navbar-nav{
+    margin-left: -1.3vw;
+    background-color: aliceblue;
+}
+.nav-link{
+    font-size: 1.7rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.rn{
+    font-size: 2.5rem;
+    margin-left: -3vw;
+}
+.logo{
+    display: none;
+}
+.icon{
+    display: none;
+}
+.navbar-toggler-icon{
+   width: 9.5vw;
+   height: 9.5vw;
+}
+.box{
+    width: 90vw;
+    height: 195vw;
+}
+#box1{
+    width: 84vw;
+    height: 36vw;
+    border: 2px solid black;
+}
+#paira{
+    font-size: 7vw;
+}
+.box2{
+    font-size: 1.2rem
+}
+.know{
+    margin-left: 32vw;
+        font-size: 1.2rem;
+        margin-top: 7vw;
+}
+#about{
+    font-size: 2rem;
+}
+#about1{
+    font-size: 1.2rem;
+}
+.boxl{
+    width: 90vw;
+    height: 176vw;
+    margin-top: 8vw;
+}
+.boxl1{
+    width: 35vw;
+    margin-left: 27vw;
+}
+.our{
+    margin-top: 14vw;
+}
+.boxl2{
+    font-size: 1.2rem;
+}
+.our1{
+    font-size: 1.5rem;
+    margin-top: 200vw;
+    margin-left: 26vw;
+}
+.main{
+    margin-top: 207vw;
+    display: block;
+    margin-left: 4vw;
+}
+.main1{
+    width: 87vw;
+    height: 81vw;
+    margin-top: 7vw;
+}
+.box-img{
+    width: 86vw;
+    height: 55vw;
+}
+.ab{
+    font-size: 3.5rem;
+    margin-left: 23vw;
+}
+.co{
+    font-size: 2.5rem;
+}
+.foot{
+    margin-top: 520vw;
+    height: 234vw;
+}
+.foot1{
+    margin-top: 215vw;
+    margin-left: 13vw;
+}
+#foot21{
+    font-size: 2rem;
+    margin-left: 4vw;
+    margin-top: 68vw;
+}
+#foot22{
+    font-size: 1rem;
+    margin-left: 4vw;
+}
+#foot31{
+    font-size: 2rem;
+    margin-left: 8vw;
+    margin-top: 126vw;
+}
+.fa-home{
+    margin-left: 8vw;
+    font-size: 3.5rem;
+}
+#foot32{
+    font-size: 1.5rem;
+    margin-left: 23vw;
+    margin-top: -8vw;
+    
+}
+#foot33{
+    font-size: 1.5rem;
+    margin-left: 23vw;
+    
+}
+#foot34{
+    font-size: 2.5rem;
+    margin-left: 8vw;
+    
+}
+#foot35{
+    font-size: 1.3rem;
+    margin-top: -6.8vw;
+    width: 20vw;
+    margin-left: 19vw;
+}
+#foot36{
+    margin-top: -11vw;
+    margin-left: 35vw;
+    font-size: 1.2rem;
+
+    
+}
+#foot41{
+    width: 51vw;
+    margin-left: 14vw;
+    border-radius: 26vw;
+    
+}
+#foot42{
+    font-size: 2.1rem;
+    margin-left: -2vw;
+    
+}
+.face{
+    font-size: 2rem;
+    padding: 6px 14px;
+    margin-left: -3vw;
+}
+.twit{
+    font-size: 2rem;
+    padding: 6px 9px; 
+    margin-left: 8vw;
+}
+.insta{
+    font-size: 2rem;
+    padding: 7px 10px;
+    margin-left: 8vw;
+}
+.lin{
+    font-size: 2rem;
+    padding: 6px 10px;
+    margin-left: 8vw;
+   
+} 
+}
+
+
+/* =======================iphone X========================================== */
+@media only screen and (min-width:374px) and (max-width:380px) and (orientation:portrait){
+    .navbar{
+        height: 22vw;
+    }
+    .navbar-nav{
+        margin-left: -1.3vw;
+        background-color: aliceblue;
+    }
+    .nav-link{
+        font-size: 1.7rem;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    .rn{
+        font-size: 2rem;
+        margin-left: -3vw;
+    }
+    .logo{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+   .navbar-toggler-icon{
+       width: 9.5vw;
+       height: 9.5vw;
+   }
+    .box{
+        width: 90vw;
+        height: 215vw;
+    }
+    #box1{
+        width: 84vw;
+        height: 36vw;
+        border: 2px solid black;
+    }
+    #paira{
+        font-size: 7vw;
+    }
+    .box2{
+        font-size: 1.2rem
+    }
+    .know{
+        margin-left: 32vw;
+            font-size: 1.2rem;
+            margin-top: 7vw;
+    }
+    #about{
+        font-size: 2rem;
+    }
+    #about1{
+        font-size: 1.2rem;
+    }
+    .boxl{
+        width: 90vw;
+        height: 204vw;
+        margin-top: 8vw;
+    }
+    .boxl1{
+        width: 35vw;
+        margin-left: 27vw;
+    }
+    .our{
+        margin-top: 14vw;
+    }
+    .boxl2{
+        font-size: 1.2rem;
+    }
+    .our1{
+        font-size: 1.5rem;
+        margin-top: 200vw;
+        margin-left: 26vw;
+    }
+    .main{
+        margin-top: 207vw;
+        display: block;
+        margin-left: 4vw;
+    }
+    .main1{
+        width: 87vw;
+        height: 81vw;
+        margin-top: 7vw;
+    }
+    .box-img{
+        width: 86vw;
+        height: 55vw;
+    }
+    .ab{
+        font-size: 3.5rem;
+        margin-left: 23vw;
+    }
+    .co{
+        font-size: 2.5rem;
+    }
+    .foot{
+        margin-top: 520vw;
+        height: 251vw;
+    }
+    .foot1{
+        margin-top: 222vw;
+        margin-left: 13vw;
+    }
+    #foot21{
+        font-size: 2rem;
+        margin-left: 4vw;
+        margin-top: 68vw;
+    }
+    #foot22{
+        font-size: 1rem;
+        margin-left: 4vw;
+    }
+    #foot31{
+        font-size: 2rem;
+        margin-left: 8vw;
+        margin-top: 126vw;
+    }
+    .fa-home{
+        margin-left: 8vw;
+        font-size: 3.5rem;
+    }
+    #foot32{
+        font-size: 1.5rem;
+        margin-left: 23vw;
+        margin-top: -8vw;
+        
+    }
+    #foot33{
+        font-size: 1.5rem;
+        margin-left: 23vw;
+        
+    }
+    #foot34{
+        font-size: 2.5rem;
+        margin-left: 8vw;
+        
+    }
+    #foot35{
+        font-size: 1.3rem;
+        margin-top: -7.5vw;
+        width: 20vw;
+        margin-left: 19vw;
+    }
+    #foot36{
+        margin-top: -11.2vw;
+        margin-left: 36vw;
+        font-size: 1rem;
+
+        
+    }
+    #foot41{
+        width: 51vw;
+        margin-left: 14vw;
+        border-radius: 26vw;
+        
+    }
+    #foot42{
+        font-size: 2.1rem;
+        margin-left: -2vw;
+        
+    }
+    .face{
+        font-size: 2rem;
+        padding: 6px 14px;
+        margin-left: -3vw;
+    }
+    .twit{
+        font-size: 2rem;
+        padding: 6px 9px; 
+        margin-left: 8vw;
+    }
+    .insta{
+        font-size: 2rem;
+        padding: 7px 10px;
+        margin-left: 8vw;
+    }
+    .lin{
+        font-size: 2rem;
+        padding: 6px 10px;
+        margin-left: 8vw;
+       
+    }
+    
+}
+
+
+/* ===========================ipad======================================== */
+
+@media only screen and (min-width:765px) and (max-width:768px) and (orientation:portrait){
+  
+    .navbar{
+        height: 22vw;
+    }
+    .navbar-nav{
+        margin-left: -1.3vw;
+        background-color: aliceblue;
+    }
+    .nav-link{
+        font-size: 3.5rem;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    .rn{
+        font-size: 4.5rem;
+        margin-left: -3vw;
+    }
+    .logo{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+   .navbar-toggler-icon{
+       width: 9.5vw;
+       height: 9.5vw;
+   }
+    .box{
+        width: 90vw;
+        height: 166vw;
+    }
+    #box1{
+        width: 84vw;
+        height: 36vw;
+        border: 2px solid black;
     }
     #paira{
         font-size: 7vw;
@@ -1228,13 +1406,16 @@ margin-left: 1vw;
         font-size: 2rem;
     }
     .boxl{
-        height: 189vw;
+        width: 90vw;
+        height: 149vw;
+        margin-top: 8vw;
     }
     .boxl1{
-        width: 72vw;
+        width: 35vw;
+        margin-left: 27vw;
     }
     .our{
-        margin-top: 3vw;
+        margin-top: -36vw;
     }
     .boxl2{
         font-size: 2rem;
@@ -1242,12 +1423,20 @@ margin-left: 1vw;
     .our1{
         font-size: 3rem;
         margin-top: 200vw;
+        margin-left: 26vw;
     }
     .main{
         margin-top: 207vw;
+        display: block;
+    }
+    .main1{
+        width: 87vw;
+        height: 81vw;
+        margin-top: 7vw;
     }
     .box-img{
-        width: 88vw;
+        width: 86vw;
+        height: 55vw;
     }
     .ab{
         font-size: 3.5rem;
@@ -1258,14 +1447,16 @@ margin-left: 1vw;
     }
     .foot{
         margin-top: 520vw;
-        height: 253vw;
+        height: 226vw;
     }
     .foot1{
-        margin-top: 233vw;
+        margin-top: 206vw;
+        margin-left: 18vw;
     }
     #foot21{
         font-size: 4rem;
         margin-left: 4vw;
+        margin-top: 68vw;
     }
     #foot22{
         font-size: 2rem;
@@ -1274,25 +1465,45 @@ margin-left: 1vw;
     #foot31{
         font-size: 4rem;
         margin-left: 8vw;
+        margin-top: 126vw;
+    }
+    .fa-home{
+        margin-left: 8vw;
+        font-size: 5rem;
     }
     #foot32{
         font-size: 2.7rem;
+        margin-left: 20vw;
+        margin-top: -7vw;
         
     }
     #foot33{
         font-size: 2.7rem;
+        margin-left: 20vw;
+        
+    }
+    #foot34{
+        font-size: 4rem;
+        margin-left: 8vw;
         
     }
     #foot35{
         font-size: 3rem;
         margin-top: -8.3vw;
         width: 20vw;
+        margin-left: 18vw;
     }
     #foot36{
         margin-top: -9vw;
-        margin-left: 40vw;
+        margin-left: 39vw;
         font-size: 2rem;
 
+        
+    }
+    #foot41{
+        width: 51vw;
+        margin-left: 14vw;
+        border-radius: 26vw;
         
     }
     #foot42{
@@ -1329,7 +1540,7 @@ margin-left: 1vw;
 /* ================================ipad pro========================== */
 
 
-@media only screen and (min-width:990px) and (max-width:1030px) and (orientation:portrait) {
+@media only screen and (min-width:990px) and (max-width:1024px) and (orientation:portrait) {
    
     .navbar-nav{
         height: 6vw;
@@ -1456,97 +1667,25 @@ margin-left: 1vw;
        
     }
     
-}
-/* ==================================nest hub======================================= */
-@media only screen and (min-width:1023px) and (max-width:1040px) and (orientation:landscape){
-  
-    .logo{
-        width: 11vw;
-        height: 10vw;
-    }
-    .icon{
-        margin-top: 8vw;
-        margin-left: 73vw;
-    }
-    .box{
-        height: 63vw;
-    }
-    .boxl{
-        margin-top: -63vw;
-        height: 63vw;
-    }
-    .boxl1{
-        width: 18vw;
-    }
-    .know{
-        margin-left: 14vw;
-    }
-    .foot{
-        height: 31vw;
-    }
-    .foot1{
-        margin-left: 3.5vw;
-    }
-    #foot21{
-        font-size: 1.5rem;
-    }
-    #foot22{
-        font-size: 0.9rem;
-    }
-    .foot3{
-        margin-left: -2vw;
-    }
-    #foot31{
-        font-size: 1.5rem;
-    }
-    #foot32{
-        font-size: 1rem;
-        margin-top: -2.2vw;
-        margin-left: 77vw;
-    }
-    #foot33{
-        margin-left: 77vw;
-        font-size: 1rem;
-    }
-    #foot36{
-        margin-left: 80vw;
-        margin-top: -3.6vw;
-        font-size: 0.9rem;
-    }
-    #foot42{
-        font-size: 1.6rem;
-    }
-    .face{
-        font-size: 1rem;
-        padding: 5px 9px;
-        
-    }
-    .twit{
-        font-size: 1rem;
-        padding: 6px 7px;
-        
-    }
-    .insta{
-        font-size: 1rem;
-        padding: 6px 8px;
-    }
-    .lin{
-        font-size: 1rem;
-        padding: 6px 7px;
-        
-    }
-    
-
-}
+} 
 /* ============================surface duo=============================== */
 
-@media only screen and (min-width:539px) and (max-width:550px) and (orientation:portrait){
-   
+@media only screen and (min-width:520px) and (max-width:540px) and (orientation:portrait){
+   .rn{
+       font-size: 3rem;
+   }
+   .our{
+       margin-top: -16vw;
+   }
+   .our1{
+       font-size: 2rem;
+    margin-left: 31vw;
+   }
    #paira{
        font-size: 6vw;
    }
    .box{
-       height: 141vw;
+       height: 135vw;
    }
    .box2{
        font-size: 1.2rem;
@@ -1581,6 +1720,7 @@ margin-left: 1vw;
     }
     #foot21{
         font-size: 3rem;
+        margin-top: 83vw;
     }
     #foot22{
         font-size: 1.4rem;
@@ -1591,16 +1731,19 @@ margin-left: 1vw;
     }
     #foot31{
         font-size: 3rem;
+        margin-top: 3vw;
     }
     #foot32{
         font-size: 1.4rem;
     }
     #foot35{
-        margin-top: -6.6vw;
+        margin-top: -5.6vw;
+        margin-left: 17vw;
         font-size: 1.5rem;
     }
     #foot36{
-        margin-left: 34vw;
+        margin-left: 31vw;
+        margin-top: -9.2vw;
         font-size: 1.5rem;
     }
     #foot41{
@@ -1611,176 +1754,6 @@ margin-left: 1vw;
        font-size: 3rem;
     }
 
-}
-
-/* ===============================nest hub max=============================================== */
-@media only screen and (min-width:1279px) and (max-width:1290px) and (orientation:landscape){
- 
-   .logo{
-       width: 14vw;
-       height: 12vw;
-   }
-   .icon{
-       margin-top: 10vw;
-       margin-left: 78vw;
-   }
-   .box{
-       height: 64vw;
-
-   }
-   .box2{
-       font-size: 1.3rem;
-   }
-   #paira{
-       font-size: 2.7rem;
-   }
-   .boxl{
-       height: 64vw;
-       margin-top: -64vw
-   }
-   .boxl1{
-       margin-top: 1vw;
-       width: 19vw;
-
-   }
-   .boxl2{
-       font-size: 1.3rem;
-   }
-   #about{
-       font-size: 3rem;
-   }
-   .foot2{
-       margin-left: 2vw;
-   }
-   #foot21{
-       font-size: 2.5rem;
-   }
-   #foot22{
-       font-size: 1.2rem;
-   }
-   .foot3{
-       margin-left: -5vw;
-   }
-   #foot31{
-       font-size: 2.5rem;
-      
-   }
-   #foot32{
-       font-size: 1.2rem;
-       margin-top: -2vw;
-       margin-left: 78vw;
-   }
-   #foot33{
-       margin-left: 78vw;
-       font-size: 1.2rem;
-   }
-   #foot35{
-       margin-left: 77vw;
-       margin-top: -2.1vw;
-       font-size: 1.3rem;
-   }
-   #foot36{
-       margin-left: 82vw;
-       margin-top: -3.5vw;
-       font-size: 1.2rem;
-   }
-   #foot41{
-       margin-left: 3vw;
-   }
-   
-}
-
-@media only screen and (min-width:1360px) and (max-width:1370px) and (orientation:landscape) {
-  .box{
-      height: 49vw;
-      border-radius: 1vw;
-  } 
-  .boxl{
-      width: 42vw;
-      height: 49vw;
-      margin-top: -49vw;
-      border-radius: 1vw;
-  }     
-}
+} 
 
 
-@media only screen and (min-width:798px) and (max-width:900px) and (orientation:landscape){
-    
-    .icon{
-        display: none;
-    }
-    
-    .logo{
-        width: 11vw;
-        height: 9vw;
-    }
-  
-    .box{
-        width: 43vw;
-        height: 86vw;
-    }
-    #box1{
-        width: 38vw;
-        height: 19vw;
-    }
-    .know{
-        margin-left: 13vw;
-    }
-    .boxl{
-        width: 43vw;
-        height: 86vw;
-        margin-top: -86vw;
-    }
-    .boxl1{
-        width: 23vw;
-    }
-}
-
-@media only screen and (min-width:660px) and (max-width:729px) and (orientation:landscape){
-  
-  .logo{
-      width: 12vw;
-      height: 10vw;
-  }
-
-  .icon{
-      display: none;
-  }
- 
-  .box{
-      height: 109vw;
-  }
-  .boxl{
-      height: 109vw;
-      margin-top: -109vw;
-  }
-  .boxl1{
-      width: 22vw;
-  }
-  .know{
-      margin-left: 13vw;
-  }
-  .our1{
-      font-size: 1.5rem;
-      margin-left: 35vw;
-  }
-  .main{
-      margin-top: 10vw;
-  }
-  .sec{
-      margin-top: 36vw;
-  }
-}
-
-@media only screen and (min-width:761px) and (max-width:797px) and (orientation:landscape){
- 
-    .logo{
-        width: 12vw;
-        height: 10vw;
-    }
-  
-    .icon{
-        display: none;
-    }
- 
-}
