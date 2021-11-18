@@ -363,8 +363,10 @@ margin-left: 1vw;
 
 /* =======================iphone 5/se================================== */
 
-@media only screen and (min-width:300px) and (max-width:320px) and (orientation:portrait) {
-
+@media only screen and (min-width:300px) and (max-width:355px) and (orientation:portrait) {
+   .rahul{
+       height: 21vw;
+   }
    .navbar{
        height: 21vw;
    }
@@ -576,8 +578,10 @@ margin-left: 1vw;
 
 /* =======================gailexy 5s====================================== */
 
-@media only screen and  (min-width:325px) and (max-width:364px) and (orientation:portrait) {
-    
+@media only screen and  (min-width:355px) and (max-width:374px) and (orientation:portrait) {
+    .rahul{
+        height: 19vw;
+    }
     .navbar{
         height: 19vw;
     }
@@ -793,7 +797,10 @@ margin-left: 1vw;
 
 /* ==================iphone 6/7/8 plus============================================= */
 
-@media only screen and (min-width:365px) and (max-width:375vw) and (orientation:portrait){
+@media only screen and (min-width:412px) and (max-width:414vw) and (orientation:portrait){
+    .rahul{
+        height: 22vw;
+    }
     .navbar{
         height: 22vw;
     }
@@ -980,7 +987,10 @@ margin-left: 1vw;
 
 /* ====================pixel 2============================ */
 @media only screen and (min-width:409px) and (max-width:411vw) and (orientation:portrait){
-.navbar{
+  .rahul{
+      height: 19vw;
+  }
+    .navbar{
     height: 19vw;
 }
 .navbar-nav{
@@ -1164,7 +1174,10 @@ margin-left: 1vw;
 
 
 /* =======================iphone X========================================== */
-@media only screen and (min-width:374px) and (max-width:380px) and (orientation:portrait){
+@media only screen and (min-width:374px) and (max-width:408px) and (orientation:portrait){
+   .rahul{
+       height: 22vw;
+   }
     .navbar{
         height: 22vw;
     }
@@ -1353,6 +1366,9 @@ margin-left: 1vw;
 
 @media only screen and (min-width:765px) and (max-width:768px) and (orientation:portrait){
   
+    .rahul{
+        height: 22vw;
+    }
     .navbar{
         height: 22vw;
     }
