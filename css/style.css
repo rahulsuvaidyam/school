@@ -371,7 +371,7 @@ margin-left: 1vw;
        height: 21vw;
    }
    .rn{
-       margin-left: -7vw;
+       margin-left: -10vw;
        font-size: 1.7rem;
    }
    
@@ -603,7 +603,7 @@ margin-left: 1vw;
         display: none;
     }
     .rn{
-        margin-left: -3vw;
+        margin-left: -10vw;
         font-size: 2rem;
     }
     .sch-ab{
@@ -815,7 +815,7 @@ margin-left: 1vw;
 }
 .rn{
     font-size: 2.2rem;
-    margin-left: -5vw;
+    margin-left: -12vw;
 }
 .logo{
     display: none;
@@ -1004,7 +1004,7 @@ margin-left: 1vw;
     }
     .rn{
         font-size: 2.2rem;
-        margin-left: -5vw;
+        margin-left: -13vw;
     }
     .logo{
         display: none;
@@ -1194,7 +1194,7 @@ margin-left: 1vw;
     }
     .rn{
         font-size: 2rem;
-        margin-left: -3vw;
+        margin-left: -12vw;
     }
     .logo{
         display: none;
