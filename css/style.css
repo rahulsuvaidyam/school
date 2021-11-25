@@ -34,6 +34,9 @@
 a{
     text-decoration: none;
 }
+.rahul{
+    height: 9vw;
+}
 .for{
     font-size: 1.8rem;
     margin-left: 2vw;
@@ -330,6 +333,12 @@ margin-left: 1vw;
     font-size: 2rem;
     margin-left: 5vw;
 }
+.cul{
+    width: 10vw;
+    background-color: red;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
 /* ============================admission==================================== */
 .admi1{
     font-size: 2rem;
@@ -376,11 +385,11 @@ margin-left: 1vw;
    }
    
  .navbar-nav{
-    
-    height: 80vw;
+    width: 100vw;
+    height: 90vw;
     margin-top: 5vw;
-    margin-left: -3.8vw;
-    background-color: aquamarine;
+    margin-left: -3.7vw;
+    background-color: #f8f9fa;
 }
 .nav-link{
     text-align: center;
