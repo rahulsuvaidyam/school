@@ -1,6 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    list-style: none;
 }
 .logo{
     position: absolute;
@@ -26,6 +27,36 @@
     font-size: 1.5rem;
     
 }
+.drop-down{
+    display: none;
+}
+.drop-down li a{
+    color: #000;
+    font-size: 1.2rem;
+}
+.drop-down ul{
+    display: block;
+    margin-top: 2.8vw;
+    width: 150px;
+    margin-left: 2vw;
+    background-color: green;
+}
+.navbar-nav li:hover .drop-down {
+    display: block;
+    position: absolute;
+
+}
+.navbar-nav li:hover .drop-down ul li{
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0vw -2.1vw;
+    border-bottom: 1px solid black;
+}
+.drop-down li:hover{
+    background-color: aliceblue;
+}
+
 .icon{
     position: absolute;
     margin-left: 82vw;
@@ -84,14 +115,14 @@ a{
     height: 40vw;
 }
 .mix{
-    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 6rem;
     
 }
 .box{
-    margin-top: 4vw;
-    margin-left: 5vw;
-    width: 41vw;
-    height: 44vw;
+    width: 41%;
+    height: auto;
     border-radius: 1vw;
     border: 2px solid black;
 }
@@ -112,11 +143,9 @@ margin-top: 2vw;
 margin-left: 1vw;
 }
 .boxl{
-    float: right;
-    margin-top: -44vw;
-    margin-right: 5vw;
-    width: 40vw;
-    height: 44vw;
+    margin-left: 8%;
+    width: 40%;
+    height: auto;
     border-radius: 1vw;
     border: 2px solid black;
 }
@@ -126,9 +155,9 @@ margin-left: 1vw;
     margin-top: 1vw;
 }
 .boxl1{
-    margin-left: 11vw;
+    margin-left: 10vw;
     margin-top: 2vw;
-    width: 15zvw;
+    width: 50%;
 }
 #about1{
     text-align: center;
@@ -147,7 +176,7 @@ margin-left: 1vw;
 
 .our{
     width: 100%;
-    height: 70vw;
+    height: auto;
     margin-top: 2vw;
 }  
 .our1{
@@ -414,28 +443,33 @@ margin-left: 1vw;
         display: none;
         
     }
+    .mix{
+        display: block;
+        margin-left: 1rem;
+    }
     
     .box{
-        width: 90vw;
-        height: 211vw;
+        width: 96%;
+        height: auto;
         border-radius: 2vw;
     }
     #paira{
         font-size: 5vw;
     }
     #box1{
-        width: 84vw;
+        width: 95%;
         height: 38vw;
         border-radius: 1vw;
     }
     .boxl{
-        width: 90vw;
-        height: 224vw;
-        margin-top: 5vw;
+        width: 96%;
+        height: auto;
         border-radius: 2vw;
+        margin-left: -0rem;
+        margin-top: 1rem;
     }
     .boxl1{
-        width: 67vw;
+        width: 80%;
     }
     .box12{
         margin-top: 5vw;
@@ -448,19 +482,19 @@ margin-left: 1vw;
         margin-top: 3vw;
     }
     .know{
-        margin-left: 33vw;
+        margin-left: 40%;
     }
     .our{
         margin-top: 14vw;
     }
     .our1{
-        margin-top: 224vw;
+        margin-top: 5rem;
         font-size: 1.3rem;
         margin-left: 26vw;
     }
     .main{
         flex-direction: column;
-        margin-top: 231vw;
+        margin-top: 6rem;
     }
     .main1{
         width: 90vw;
@@ -487,10 +521,10 @@ margin-left: 1vw;
     }
     .foot{
         height: 235vw;
-        margin-top: 620vw;
+        margin-top: 431vw;
     }
     .fooot{
-        height: 235vw;
+        height: auto;
         margin-top: 0;
     }
     
@@ -636,233 +670,3 @@ margin-left: 1vw;
     
 } 
 
-/* ===================galexy S5===================== */
-
-@media only screen and (min-width:356px) and (max-width:360px){
-     
-    .box{
-        height: 181vw;
-    }
-    .boxl{
-        height: 195vw;
-    }
-    .our{
-        margin-top: -10vw;
-    }
-    .foot1{
-        margin-top: 212vw;
-        margin-left: 5vw;
-    }
-    #foot42{
-        font-size: 2rem;
-        margin-left: -2vw;
-    }
-    #foot36{
-        font-size: 16px;
-        margin-top: -11.2vw;
-    }
-}
-
-/* ==================pixel 2==================*/
-
-@media only screen and (min-width:410px) and (max-width:412px){
-    .box{
-        height: 147vw;
-    }
-    .boxl{
-        height: 173vw;
-    }
-    .our{
-        margin-top: -35vw;
-    }
-    .our1{
-        font-size: 1.7rem;
-    }
-    .foot{
-        height: 222vw;
-    }
-    .foot1{
-        margin-top: 204vw;
-        margin-left: 8vw;
-    }
-    #foot21{
-        font-size: 2rem;
-    }
-    #foot22{
-        font-size: 1.1rem;
-    }
-    #foot31{
-        font-size: 2rem;
-    }
-    #foot42{
-        font-size: 2.3rem;
-    }
-    #foot36{
-        font-size: 18px;
-        margin-top: -10.2vw;
-    }
-}
-/* ======================= iphone 5/se====================*/
-
-@media only screen and (min-width:310px) and (max-width:320px){
-
-    .box{
-        height: 211vw;
-    }
-    .boxl{
-        height: 225vw;
-    }
-    .our{
-        margin-top: 10vw;
-    }
-    .foot{
-        height: 250vw;
-    }
-    .foot1{
-        margin-top: 224vw;
-        margin-left: 2vw;
-    }
-    #foot42{
-        font-size: 1.8rem;
-        margin-left: -2vw;
-    }
-    #foot31{
-        margin-top: 128vw;
-    }
-    #foot36{
-        font-size: 14px;
-    }
-    #co-box{
-        margin-left: 5vw;
-        margin-top: 4vw;
-        width: 90vw;
-        height: 43vw;
-    }
-}
-
-/* =============iphone 6/7/8 plus=============== */
-
-@media only screen and (min-width:412px) and (max-width:415px){
-    .box{
-        height: 146vw;
-    }
-    .boxl{
-        height: 173vw;
-    }
-    .our{
-        margin-top: -37vw;
-    }
-    .our1{
-        font-size: 1.8rem;
-    }
-    .fooot{
-        height: 220;
-    }
-    .foot{
-        height: 220;
-    }
-    .foot1{
-         margin-top: 203vw;
-         margin-left: 8vw;
-    }
-    #foot22{
-        font-size: 1.1rem;
-    }
-    #foot36{
-        margin-top: -10.2vw;
-        font-size: 18px;
-    }
-    #foot42{
-        font-size: 2.3rem;
-    }
-}
-
-/* ===================iphone 6/7/8 ============ */
-
-@media only screen and (min-width:374px) and (max-width:376px){
-    .box{
-        height: 174vw;
-    }
-    .boxl{
-        height: 188vw;
-    }
-    .our{
-        margin-top: -23vw;
-    }
-    .fooot{
-        height: 226vw;
-    }
-    .foot{
-        height: 226vw;
-    }
-    .foot1{
-        margin-top: 208vw;
-    }
-    #foot22{
-        font-size: 1rem;
-    }
-    #foot42{
-        font-size: 2.1rem;
-    }
-    #foot36{
-        font-size: 16px;
-        margin-top: -10.7vw;
-    }
-
-}
-
-/* ============ipad============================= */
-/*  
-@media (max-width:768px){
-    .rn{
-        font-size: 4rem;
-    }
-    .box{
-        height: 120vw;
-    }
-    .box2{
-        font-size: 1.5rem;
-    }
-    .know{
-        font-size: 2rem;
-        margin-left: 34vw;
-    }
-    .boxl{
-        height: 139vw;
-    }
-    .boxl2{
-        font-size: 1.5rem;
-    }
-    #about1{
-        font-size: 2rem;
-    }
-    .our{
-        margin-top: -67vw;
-    }
-    .our1{
-        font-size: 3.2rem;
-    }
-    #foot21{
-        font-size: 4rem;
-    }
-    #foot22{
-        font-size: 1.9rem;
-    }
-    #foot31{
-        font-size: 4.3rem;
-    }
-    #foot32{
-        font-size: 3rem;
-    }
-    #foot33{
-        font-size: 3rem;
-    }
-    #foot42{
-        font-size: 4.3rem;
-    }
-    #foot36{
-        margin-top: -9vw;
-        font-size: 33px;
-    }
-
-}  */
