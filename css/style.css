@@ -132,10 +132,10 @@ a{
     margin-top: 1vw;
 }
 #box1{
-    width: 35vw;
+    width: 90%;
     height: 16vw;
     margin-top: 3vw;
-    margin-left: 2.5vw;
+    margin-left: 1.8vw;
     border-radius: 0.5vw;
 }
 .box2{
@@ -216,7 +216,7 @@ margin-left: 1vw;
     margin-left: 1vw;
     border-radius: 2vw;
 }
-.foot{
+footer{
     position: absolute;
     margin-top: 50vw;
     width: 100%;
@@ -414,6 +414,12 @@ margin-left: 1vw;
 
 /* =======================view mobile================================== */
 
+@media (max-width:990px){
+    .icon{
+        display: none;
+    }
+
+}
 @media (max-width:765px){
    .rahul{
        height: 21vw;
@@ -519,7 +525,7 @@ margin-left: 1vw;
         border-radius: 4vw;
         margin-top: 8vw;
     }
-    .foot{
+    footer{
         height: 235vw;
         margin-top: 431vw;
     }
